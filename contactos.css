@@ -12,7 +12,7 @@
      max-width: 250px;
 }
 .contacto h3 {
-    color: #c0464669;
+    color: black;
   margin-bottom: 15px;
   font-weight: bold;
 }
@@ -46,15 +46,16 @@
     padding: 20px;
     font-size: 14px;
   }
+  
   footer a {
-    color: red
+    color: red;
     text-decoration: none;
     font-weight: bold;
   }
+  
   footer a:hover {
     text-decoration: underline;
   }
-
 
 
 
