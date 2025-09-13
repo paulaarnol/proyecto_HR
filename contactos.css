@@ -4,7 +4,7 @@
     gap: 40px;
     padding: 50px 20px;
     flex-wrap: wrap;
-    background-color: rgb(102, 31, 31)
+    background-color: black
  }
  .contacto {
     text-align: center;
@@ -58,7 +58,7 @@
   }
  .boton-le {
   
-        background-color: #920e0e;  
+        background-color:red;  
         color: #fff;                 
         border: none;                
         padding: 10px 16px;          
@@ -69,12 +69,12 @@
       }
       
       .boton-le a {
-        color: #fff;                
+        color: #ffffff;                
         text-decoration: none;       
       }
       
      .boton-le:hover {
-        background-color: #c21b1b;   
+        background-color: #3a0303;   
       }
   
 
