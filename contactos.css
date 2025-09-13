@@ -56,7 +56,27 @@
   footer a:hover {
     text-decoration: underline;
   }
-
+ .boton-le {
+  
+        background-color: #920e0e;  
+        color: #fff;                 
+        border: none;                
+        padding: 10px 16px;          
+        border-radius: 6px;        
+        cursor: pointer;            
+        font-weight: bold;          
+        transition: background-color 0.3s ease;
+      }
+      
+      .boton-le a {
+        color: #fff;                
+        text-decoration: none;       
+      }
+      
+     .boton-le:hover {
+        background-color: #c21b1b;   
+      }
+  
 
 
 
