@@ -9,3 +9,7 @@ body{
       color: #000000;
     background: #f4f4f4;
 }
+header{
+  position: sticky; 
+  top: 0;
+}
