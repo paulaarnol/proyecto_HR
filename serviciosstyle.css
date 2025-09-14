@@ -22,3 +22,8 @@ header{
 header .galeria\logo.png {
   height: 50px;
 }
+#navegacion ul {
+  list-style: none;
+  display: flex; 
+  gap: 20px;
+}
