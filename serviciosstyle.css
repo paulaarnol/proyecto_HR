@@ -27,3 +27,10 @@ header .galeria\logo.png {
   display: flex; 
   gap: 20px;
 }
+#navegacion a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px; 
+  border-radius: 4px;
+  transition: background 0.3s;
+}
