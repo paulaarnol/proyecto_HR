@@ -20,4 +20,13 @@ body{
     background: #7a0000;
     padding: 8px 20px;
     color: white;
+    z-index: 50;
+    gap: 12px;
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+    display: block;
+    object-fit: contain;
 }
