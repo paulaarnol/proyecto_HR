@@ -34,3 +34,8 @@ header .galeria\logo.png {
   border-radius: 4px;
   transition: background 0.3s;
 }
+#navegacion a:hover,
+#navegacion a.activo {
+  background: #f7f4f4;
+  color: #7a0000;
+}
