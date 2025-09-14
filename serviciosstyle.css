@@ -69,3 +69,9 @@ section h2 {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#historia article {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
