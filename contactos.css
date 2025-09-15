@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: #ffffff;
 }
+
 header {
   position: sticky; /* queda fijo arriba */
   top: 0;
@@ -14,8 +15,15 @@ header {
   padding: 0px 20px;
   color: white;
 }
+
+header .galeria\logo.png {
+  height: 50px;
+}
 .menu {
-  
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
 }
 
 
