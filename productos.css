@@ -199,5 +199,11 @@ article.taller p {
 }
 
 @keyframes girarTurbo3 {
-   
+    0%     { background-image: url('imagenesturbo/3Turbinadecoche/turbooo1-removebg-preview.png'); }
+    16.67% { background-image: url('imagenesturbo/3Turbinadecoche/turbooo2-removebg-preview.png'); }
+    33.33% { background-image: url('imagenesturbo/3Turbinadecoche/turbooo3-removebg-preview.png'); }
+    50%    { background-image: url('imagenesturbo/3Turbinadecoche/turbooo4-removebg-preview.png'); }
+    66.67% { background-image: url('imagenesturbo/3Turbinadecoche/turbooo5-removebg-preview.png'); }
+    83.33% { background-image: url('imagenesturbo/3Turbinadecoche/turbooo6-removebg-preview.png'); }
+    100%   { background-image: url('imagenesturbo/3Turbinadecoche/turbooo1-removebg-preview.png'); }
 }
