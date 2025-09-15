@@ -156,7 +156,11 @@ article.taller p {
 }
 
 .animaciones-container h2 {
-    
+    margin: 0;
+    font-size: 1.8rem;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;       /* Alinea el título a la izquierda */
 }
 
 .animacion-turbo1 {
