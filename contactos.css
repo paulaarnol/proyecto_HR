@@ -15,7 +15,7 @@ header {
   padding: 0px 20px;
   color: white;
 }
-header .galeria{
+header .logo{
   height: 50px;
 }
 
@@ -31,7 +31,9 @@ header .galeria{
   margin: 0;
   padding: 0;
 }
-
+.menu li {
+  margin-left: 20px;
+}
 
 
 
