@@ -90,5 +90,10 @@ section, main > .turbos {
 article.taller {
   display: flex;
   flex-direction: column;
-  
+  gap: 10px;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  text-align: center;
 }
