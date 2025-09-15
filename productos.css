@@ -164,7 +164,10 @@ article.taller p {
 }
 
 .animaciones-fila {
-  
+    display: flex;          /* Fila horizontal */
+    gap: 20px;              /* Espacio entre cada animación */
+    justify-content: flex-start; /* Alinea todo a la izquierda */
+    flex-wrap: nowrap;      /* No se rompen en varias filas */
 }
 
 .animacion-turbo1 {
