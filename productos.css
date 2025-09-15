@@ -105,3 +105,8 @@ article.taller img {
   object-fit: cover;
   display: block;
 }
+
+article.taller p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
