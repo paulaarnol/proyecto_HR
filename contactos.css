@@ -52,7 +52,9 @@ header .logo{
   background-color: #f0f0f0
 }
 .intro h1 {
-  
+  font-size: 36px;
+  color: #ff5500;
+  margin-bottom: 10px;
 }
 
 
