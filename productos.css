@@ -180,3 +180,7 @@ article.taller p {
     background-position: center;
     animation: girarTurbo2 4s infinite;
 }
+
+@keyframes girarTurbo2 {
+  
+}
