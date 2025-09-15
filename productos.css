@@ -191,5 +191,9 @@ article.taller p {
 }
 
 .animacion-turbo3 {
-    
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    animation: girarTurbo3 6s infinite;
 }
