@@ -97,3 +97,9 @@ article.taller {
   border: 1px solid #e6e6e6;
   text-align: center;
 }
+
+article.taller img {
+  width: 100%;
+  height: auto;
+  
+}
