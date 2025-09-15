@@ -42,7 +42,9 @@ header .logo{
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 .menu a:hover {
-
+  background-color: #9900ff;
+  color: #fff;
+  border-radius: 5px;
 }
 
 
