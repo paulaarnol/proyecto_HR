@@ -5,7 +5,7 @@ body {
   background-color: #ffffff;
 }
 
-header {
+.header {
   position: sticky; /* queda fijo arriba */
   top: 0;
   display: flex; /* flexbox para alinear logo + nav */
@@ -15,10 +15,10 @@ header {
   padding: 0px 20px;
   color: white;
 }
-header .logo{
+
+.logo img {
   height: 50px;
 }
-
 .menu {
   position: absolute;
   top: 50%;
@@ -52,9 +52,13 @@ header .logo{
   background-color: #f0f0f0
 }
 .intro h1 {
-  font-size: 36px;
-  color: #ff5500;
-  margin-bottom: 10px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #222;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-weight: 100;
 }
 .intro p {
   font-size: 18px;
