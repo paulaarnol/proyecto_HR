@@ -163,3 +163,7 @@ article.taller p {
     background-position: center;
     animation: girarTurbo1 4s infinite;
 }
+
+@keyframes girarTurbo1 {
+   
+}
