@@ -99,6 +99,11 @@ section h2 {
 
 #servicios li {
   background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+  font-family:Arial, Helvetica, sans-serif ;
 
 }
 
