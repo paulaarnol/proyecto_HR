@@ -86,3 +86,9 @@ section, main > .turbos {
   gap: 16px;
   padding: 10px;
 }
+
+article.taller {
+  display: flex;
+  flex-direction: column;
+  
+}
