@@ -7,6 +7,7 @@ El proyecto consiste en la creación de un sitio web estático desarrollado en H
 
 Contenido del Sitio
 El sitio cuenta con las siguientes secciones:
+Se agrego estilo css a todas las paginas.
 index.html : Página principal de presentación  
 productos.html : Listado de productos disponibles  
 servicios.html : Descripción de los servicios que ofrece la empresa  
