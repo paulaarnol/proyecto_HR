@@ -24,7 +24,7 @@ body{
     gap: 12px;
 }
 
-.logo{
+.logo img {
     height: 50px;
     width: auto;
     display: block;
