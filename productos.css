@@ -116,3 +116,10 @@ article.taller p {
   padding: 0;
   margin: 18px auto;
 }
+
+.dos {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: transparent;
+  padding: 12px;
+}
