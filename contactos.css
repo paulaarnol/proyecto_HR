@@ -57,7 +57,8 @@ header .logo{
   margin-bottom: 10px;
 }
 .intro p {
- 
+  font-size: 18px;
+  color: #333;
 }
 
 
