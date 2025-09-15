@@ -15,7 +15,9 @@ header {
   padding: 0px 20px;
   color: white;
 }
-
+header .galeria{
+  height: 50px;
+}
 
 .menu {
   position: absolute;
