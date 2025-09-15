@@ -142,5 +142,8 @@ article.taller p {
 }
 
 .tres p {
-
+  text-align: center;
+  margin-top: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
 }
