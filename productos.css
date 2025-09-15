@@ -131,5 +131,12 @@ article.taller p {
 }
 
 .tres > img {
- 
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04);
 }
