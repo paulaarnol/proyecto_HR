@@ -182,5 +182,10 @@ article.taller p {
 }
 
 @keyframes girarTurbo2 {
-  
+    0%   { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo1-removebg-preview.png'); }
+    20%  { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo2-removebg-preview.png'); }
+    40%  { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo3-removebg-preview.png'); }
+    60%  { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo4-removebg-preview.png'); }
+    80%  { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo5-removebg-preview.png'); }
+    100% { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo1-removebg-preview.png'); }
 }
