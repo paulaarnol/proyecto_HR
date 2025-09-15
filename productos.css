@@ -30,3 +30,10 @@ body{
     display: block;
     object-fit: contain;
 }
+
+#navegación #lista{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
