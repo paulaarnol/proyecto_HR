@@ -41,7 +41,9 @@ header .logo{
   padding: 8px 12px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+.menu a:hover {
 
+}
 
 
 
