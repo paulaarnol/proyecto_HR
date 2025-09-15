@@ -149,5 +149,9 @@ article.taller p {
 }
 
 .animaciones-container {
-    
+    display: flex;
+    gap: 20px; /* Espacio entre animaciones */
+    justify-content: center; /* Centra en la página */
+    align-items: center;
+    flex-wrap: wrap; /* Se adapta si la pantalla es pequeña */
 }
