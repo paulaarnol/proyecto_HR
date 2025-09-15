@@ -2,9 +2,18 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e35959;
+  background-color: #ffffff;
 }
-
+header {
+  position: sticky; /* queda fijo arriba */
+  top: 0;
+  display: flex; /* flexbox para alinear logo + nav */
+  justify-content: space-between;
+  align-items: center;
+  background: #7a0000;
+  padding: 0px 20px;
+  color: white;
+}
 
 
 
