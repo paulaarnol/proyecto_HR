@@ -157,5 +157,9 @@ article.taller p {
 }
 
 .animacion-turbo1 {
-  
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    animation: girarTurbo1 4s infinite;
 }
