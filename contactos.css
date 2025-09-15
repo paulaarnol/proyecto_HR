@@ -16,9 +16,7 @@ header {
   color: white;
 }
 
-header .galeria\logo.png {
-  height: 50px;
-}
+
 .menu {
   position: absolute;
   top: 50%;
@@ -26,7 +24,10 @@ header .galeria\logo.png {
   transform: translateY(-50%);
 }
 .menu ul {
-  
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 
