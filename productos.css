@@ -214,3 +214,8 @@ article.taller p {
   background: #222;
   color: #fff;
 }
+
+#footer a {
+  color: #7a0000;
+  text-decoration: none;
+}
