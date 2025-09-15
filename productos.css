@@ -108,5 +108,6 @@ article.taller img {
 
 article.taller p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+  color: #111;
+  font-size: 0.95rem;
 }
