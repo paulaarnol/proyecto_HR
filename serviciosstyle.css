@@ -107,3 +107,12 @@ section h2 {
 
 }
 
+#diagnostico ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px; 
+}
+
+
+
