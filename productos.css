@@ -113,5 +113,6 @@ article.taller p {
 }
 
 .turbos {
-  
+  padding: 0;
+  margin: 18px auto;
 }
