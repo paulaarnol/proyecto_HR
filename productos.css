@@ -165,5 +165,10 @@ article.taller p {
 }
 
 @keyframes girarTurbo1 {
-   
+    0%   { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo1-removebg-preview.png'); }
+    20%  { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo2-removebg-preview.png'); }
+    40%  { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo3-removebg-preview.png'); }
+    60%  { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo4-removebg-preview.png'); }
+    80%  { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo5-removebg-preview.png'); }
+    100% { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo1-removebg-preview.png'); }
 }
