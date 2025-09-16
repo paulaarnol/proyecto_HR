@@ -24,19 +24,19 @@ body{
     gap: 12px;
 }
 
-<<<<<<< HEAD
+
 .logo{
   height: 50px;
   width: auto;
   display: block;
   object-fit: contain;
-=======
+}
 .logo img {
     height: 50px;
     width: auto;
     display: block;
     object-fit: contain;
->>>>>>> f1bfee1799db91a59445bbf4e5dc0707b186e973
+
 }
 
 #navegación #lista{
