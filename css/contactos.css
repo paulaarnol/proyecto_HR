@@ -89,14 +89,7 @@ section {
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-.grid-container{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 50px 20px;
-    flex-wrap: wrap;
-    background-color: black
- }
+
  .contacto {
     text-align: center;
     padding: 20px;
