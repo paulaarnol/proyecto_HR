@@ -34,12 +34,7 @@ header img {
   right: 40px;
   transform: translateY(-50%);
 }
-.menu ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+
 .menu li {
   margin-left: 20px;
 }
