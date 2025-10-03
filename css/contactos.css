@@ -11,15 +11,16 @@ body {
     line-height: 1.6;
 }
 
-.header {
-  position: sticky; /* queda fijo arriba */
-  top: 0;
-  display: flex; /* flexbox para alinear logo + nav */
-  justify-content: space-between;
-  align-items: center;
-  background: #7a0000;
-  padding: 0px 20px;
-  color: white;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
 
 .logo img {
