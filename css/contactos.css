@@ -99,7 +99,32 @@ section {
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s;
 }
 
- 
+ #servicios li:hover {
+    transform: translateY(-8px) scale(1.05);
+  }
+    #servicios ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+#servicios li {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s;
+}
+
+#servicios li:hover {
+    transform: translateY(-8px) scale(1.05);
+    background:#343434;
+}
+
   footer {
     background-color: black;
     color: white;
