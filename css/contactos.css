@@ -48,18 +48,7 @@ header img {
     font-size: 16px;
     transition: color 0.3s;
 }
-.menu a {
-  text-decoration: none;
-  color: red;
-  font-weight: bold;
-  padding: 8px 12px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-.menu a:hover {
-  background-color: #d20000;
-  color: #ffffff;
-  border-radius: 5px;
-}
+
 .intro {
   text-align: center;
   padding: 50px 20px 30px;
