@@ -77,9 +77,8 @@ h2 {
     font-size: 1.8rem;
     margin-top: 40px;
 }
-.intro p {
-  font-size: 18px;
-  color: black
+#p1 {
+  align-items: center;
 }
 
 
