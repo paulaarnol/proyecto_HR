@@ -35,6 +35,12 @@ header img {
   transform: translateY(-50%);
 }
 
+#navegacion ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
 .menu li {
   margin-left: 20px;
 }
