@@ -110,10 +110,8 @@ article.taller {
 
 article.taller img {
   width: 100%;
-  height: auto;
   border-radius: 6px;
   object-fit: cover;
-  display: block;
 }
 
 article.taller p {
