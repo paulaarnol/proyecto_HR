@@ -7,8 +7,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    color: black;
-    background: #f4f4f4;
+    color: #eaeaea;
+    background: #121212;
 }
 
 #encabezado {
@@ -17,9 +17,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #7a0000;
+    background: #1e1e1e;
     padding: 8px 20px;
-    color: white;
     z-index: 50;
     gap: 12px;
 }
@@ -48,7 +47,7 @@ body{
 
 #navegación #lista a {
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 8px 12px;
   border-radius: 4px;
   transition: background 0.25s, color 0.25s, transform 0.12s;
@@ -56,7 +55,7 @@ body{
 
 #navegación #lista a:hover,
 #navegación #lista a.activo {
-  background: #f7f4f4;
+  background: #1e1e1e;
   color: #7a0000;
   transform: translateY(-2px);
 }
@@ -65,7 +64,7 @@ h1 {
   margin-top: 28px;
   text-align: center;
   font-size: 3rem;
-  color: black;
+  color: white;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
   font-weight: 100;
@@ -75,12 +74,12 @@ h1 {
   margin: 18px 0 8px;
   text-align: center;
   font-size: 1.4rem;
-  color: black;
+  color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 section, main > .turbos {
-  background: #fff;
+  background: #1e1e1e;
   margin: 20px auto;
   padding: 24px;
   max-width: 1000px;
@@ -99,10 +98,10 @@ article.taller {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background: #fafafa;
+  background: #1e1e1e;
   border-radius: 8px;
   padding: 10px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #333131;
   text-align: center;
   transition: transform 0.3s ease, filter 0.3s ease;
   cursor: pointer;
@@ -117,7 +116,7 @@ article.taller img {
 
 article.taller p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #111;
+  color: white;
   font-size: 0.95rem;
   margin: 0;
 }
@@ -155,8 +154,8 @@ article.taller p {
   border-radius: 8px;
   object-fit: cover;
   display: block;
-  border: 1px solid #e6e6e6;
-  background: #fff;
+  border: 1px solid #333131;
+  background: #1e1e1e;
   box-shadow: 0 4px 10px rgba(0,0,0,0.04);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -170,7 +169,7 @@ article.taller p {
   text-align: center;
   margin-top: 6px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #000;
+  color: white;
 }
 
 .animaciones-container {
@@ -183,7 +182,7 @@ article.taller p {
 .animaciones-container h2 {
     margin: 0;
     font-size: 1.8rem;
-    color: #000;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;       /* Alinea el título a la izquierda */
 }
