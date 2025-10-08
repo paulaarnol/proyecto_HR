@@ -189,7 +189,7 @@ article.taller p {
     height: 300px;
     background-size: cover;
     background-position: center;
-    animation: girarTurbo1 4s infinite;
+    background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo1-removebg-preview.png');
 }
 
 @keyframes girarTurbo1 {
