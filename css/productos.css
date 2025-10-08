@@ -150,6 +150,11 @@ article.taller p {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.tres > img:hover {
+  transform: scale(1.08); /* agranda un poco */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* más sombra para resaltar */
+}
+
 .tres p {
   text-align: center;
   margin-top: 6px;
