@@ -9,7 +9,10 @@ cards.forEach(card => {
           });
         }
         else{
-
+            cards.forEach(c => {
+                c.classList.remove('active');
+                c.classList.add('dimmed');
+            });
         }
     });
 });
