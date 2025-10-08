@@ -104,6 +104,8 @@ article.taller {
   padding: 10px;
   border: 1px solid #e6e6e6;
   text-align: center;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
 }
 
 article.taller img {
