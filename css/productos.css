@@ -127,7 +127,7 @@ article.taller p {
 }
 
 .taller.dimmed {
-  
+  filter: blur(3px);
 }
 
 .turbos {
