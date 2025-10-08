@@ -121,6 +121,10 @@ article.taller p {
   margin: 0;
 }
 
+.taller.active {
+  
+}
+
 .turbos {
   padding: 0;
   margin: 18px auto;
