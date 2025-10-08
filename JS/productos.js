@@ -13,6 +13,8 @@ cards.forEach(card => {
                 c.classList.remove('active');
                 c.classList.add('dimmed');
             });
+            card.classList.add('active');
+            card.classList.remove('dimmed');
         }
     });
 });
