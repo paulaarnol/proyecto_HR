@@ -212,6 +212,10 @@ article.taller p {
     background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo1-removebg-preview.png');;
 }
 
+.animacion-turbo2:hover {
+    
+}
+
 @keyframes girarTurbo2 {
     0%   { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo1-removebg-preview.png'); }
     20%  { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo2-removebg-preview.png'); }
