@@ -191,6 +191,9 @@ article.taller p {
     background-position: center;
     background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo1-removebg-preview.png');
 }
+.animacion-turbo1:hover {
+    
+}
 
 @keyframes girarTurbo1 {
     0%   { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo1-removebg-preview.png'); }
