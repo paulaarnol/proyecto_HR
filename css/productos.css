@@ -234,7 +234,7 @@ article.taller p {
 }
 
 .animacion-turbo3:hover {
-    
+    animation: girarTurbo3 6s infinite;
 }
 
 @keyframes girarTurbo3 {
