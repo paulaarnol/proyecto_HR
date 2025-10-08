@@ -213,7 +213,7 @@ article.taller p {
 }
 
 .animacion-turbo2:hover {
-    
+    animation: girarTurbo2 4s infinite;
 }
 
 @keyframes girarTurbo2 {
