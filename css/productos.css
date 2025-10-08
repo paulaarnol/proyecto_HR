@@ -122,7 +122,8 @@ article.taller p {
 }
 
 .taller.active {
-  
+  transform: scale(1.08);
+  z-index: 2;
 }
 
 .turbos {
