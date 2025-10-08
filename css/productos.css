@@ -200,19 +200,20 @@ article.taller p {
     height: 300px;
     background-size: cover;
     background-position: center;
-    background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo1-removebg-preview.png');
+    background-image: url('galeria/3d/1TurbocompresorGarrett/turboa.png'); /* posición inicial */
 }
+
 .animacion-turbo1:hover {
     animation: girarTurbo1 4s infinite;
 }
 
 @keyframes girarTurbo1 {
-    0%   { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo1-removebg-preview.png'); }
-    20%  { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo2-removebg-preview.png'); }
-    40%  { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo3-removebg-preview.png'); }
-    60%  { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo4-removebg-preview.png'); }
-    80%  { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo5-removebg-preview.png'); }
-    100% { background-image: url('imagenesturbo/1TurbocompresorGarrett/turbo1-removebg-preview.png'); }
+    0%   { background-image: url('galeria/3d/1TurbocompresorGarrett/turboa.png'); }
+    20%  { background-image: url('galeria/3d/1TurbocompresorGarrett/turbob.png'); }
+    40%  { background-image: url('galeria/3d/1TurbocompresorGarrett/turboc.png'); }
+    60%  { background-image: url('galeria/3d/1TurbocompresorGarrett/turbod.png'); }
+    80%  { background-image: url('galeria/3d/1TurbocompresorGarrett/turboe.png'); }
+    100% { background-image: url('galeria/3d/1TurbocompresorGarrett/turboa.png'); }
 }
 
 .animacion-turbo2 {
@@ -220,7 +221,7 @@ article.taller p {
     height: 300px;
     background-size: cover;
     background-position: center;
-    background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo1-removebg-preview.png');;
+    background-image: url('galeria/3d/2Turbocompresoroxidado/turboa.png');;
 }
 
 .animacion-turbo2:hover {
@@ -228,12 +229,12 @@ article.taller p {
 }
 
 @keyframes girarTurbo2 {
-    0%   { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo1-removebg-preview.png'); }
-    20%  { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo2-removebg-preview.png'); }
-    40%  { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo3-removebg-preview.png'); }
-    60%  { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo4-removebg-preview.png'); }
-    80%  { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo5-removebg-preview.png'); }
-    100% { background-image: url('imagenesturbo/2Turbocompresoroxidado/turboo1-removebg-preview.png'); }
+    0%   { background-image: url('galeria/3d/2Turbocompresoroxidado/turboa.png'); }
+    20%  { background-image: url('galeria/3d/2Turbocompresoroxidado/turbob.png'); }
+    40%  { background-image: url('galeria/3d/2Turbocompresoroxidado/turboc.png'); }
+    60%  { background-image: url('galeria/3d/2Turbocompresoroxidado/turbod.png'); }
+    80%  { background-image: url('galeria/3d/2Turbocompresoroxidado/turboe.png'); }
+    100% { background-image: url('galeria/3d/2Turbocompresoroxidado/turboa.png'); }
 }
 
 .animacion-turbo3 {
@@ -241,7 +242,7 @@ article.taller p {
     height: 300px;
     background-size: cover;
     background-position: center;
-    background-image: url('imagenesturbo/3Turbinadecoche/turbooo1-removebg-preview.png');;
+    background-image: url('galeria/3d/3Turbinadecoche/turboa.png');;
 }
 
 .animacion-turbo3:hover {
@@ -249,13 +250,13 @@ article.taller p {
 }
 
 @keyframes girarTurbo3 {
-    0%     { background-image: url('imagenesturbo/3Turbinadecoche/turbooo1-removebg-preview.png'); }
-    16.67% { background-image: url('imagenesturbo/3Turbinadecoche/turbooo2-removebg-preview.png'); }
-    33.33% { background-image: url('imagenesturbo/3Turbinadecoche/turbooo3-removebg-preview.png'); }
-    50%    { background-image: url('imagenesturbo/3Turbinadecoche/turbooo4-removebg-preview.png'); }
-    66.67% { background-image: url('imagenesturbo/3Turbinadecoche/turbooo5-removebg-preview.png'); }
-    83.33% { background-image: url('imagenesturbo/3Turbinadecoche/turbooo6-removebg-preview.png'); }
-    100%   { background-image: url('imagenesturbo/3Turbinadecoche/turbooo1-removebg-preview.png'); }
+    0%     { background-image: url('galeria/3d/3Turbinadecoche/turboa.png'); }
+    16.67% { background-image: url('galeria/3d/3Turbinadecoche/turbob.png'); }
+    33.33% { background-image: url('galeria/3d/3Turbinadecoche/turboc.png'); }
+    50%    { background-image: url('galeria/3d/3Turbinadecoche/turbod.png'); }
+    66.67% { background-image: url('galeria/3d/3Turbinadecoche/turboe.png'); }
+    83.33% { background-image: url('galeria/3d/3Turbinadecoche/turbof.png'); }
+    100%   { background-image: url('galeria/3d/3Turbinadecoche/turboa.png'); }
 }
 
 #footer {
