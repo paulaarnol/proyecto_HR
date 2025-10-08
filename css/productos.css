@@ -126,6 +126,10 @@ article.taller p {
   z-index: 2;
 }
 
+.taller.dimmed {
+  
+}
+
 .turbos {
   padding: 0;
   margin: 18px auto;
