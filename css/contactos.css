@@ -111,9 +111,10 @@ body {
 
 .contacto img {
   display: block;
-  margin: 
-  max-width: 60px;
+  margin: 20px auto;
+  max-width: 80px;
   border-radius: 8px;
+ 
 }
 
 .boton-le {
