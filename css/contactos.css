@@ -148,6 +148,7 @@ body {
 #footer a:hover {
   text-decoration: underline;
 }
+/*añadi aca tu parte */
 
 .boton-le {
   background-color: #00000000;
@@ -168,3 +169,7 @@ body {
 
 
 
+/*Mi parte*/
+.resaltar {
+  transition: transform 0.3s ease;
+}
