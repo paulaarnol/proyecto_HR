@@ -5,6 +5,14 @@ body {
   background-color: black;
 }
 
+:root {
+  --text: #ffffff;
+  --radius: 8px;
+  --speed: 0.3s;
+  --brand: #ff0000;
+  --brand-2: #cc0000;
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -17,14 +25,7 @@ body {
   gap: 12px;
 }
 
-.logo {
-  height: 50px;
-  width: auto;
-  display: block;
-  object-fit: contain;
-}
-
-.logo img {
+.logo img{
   height: 50px;
   width: auto;
   display: block;
@@ -34,7 +35,6 @@ body {
 .menu {
   margin-left: auto;
   align-self: center;
-}
 
 .menu ul {
   display: flex;
