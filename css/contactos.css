@@ -95,12 +95,12 @@ body {
 
 .contacto {
   text-align: center;
-  padding: 15px;
-  max-width: 220px;
+  padding: 20px;
+  max-width: 250px;
   background-color: black; 
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-
+}
 .contacto a{
   color: #ff0000c0;
 }
