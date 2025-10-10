@@ -179,8 +179,9 @@ body {
 .resaltar {
   transition: transform 0.3s ease;
 }
-
-
+.resaltar:hover {
+  transform: scale(1.15) rotate(-2deg);
+}
 
 .mostrar {
   opacity: 0;
