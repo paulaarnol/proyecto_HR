@@ -33,9 +33,11 @@ body {
 }
 
 .menu {
-  margin-left: auto;
-  align-self: center;
-
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+}
 .menu ul {
   display: flex;
   list-style: none;
