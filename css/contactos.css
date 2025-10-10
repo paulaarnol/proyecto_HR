@@ -102,7 +102,10 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 .contacto a{
-  color: #ff0000c0;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: underline;
 }
 .contacto h3 {
   color: #fff;
@@ -122,24 +125,6 @@ body {
   transform: scale(1.1);
   opacity: 0.9;
 }
-.boton-le {
-  background-color: #00000000;
-  color: rgb(255, 255, 255); 
-  border: none;
-  padding: 6px 12px;
-  border-radius: 5px;
-  display: inline-block;
-  text-decoration: none;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.boton-le:hover {
-  background-color: #121212;
-  transform: scale(1.03);
-  color: #ffffff;
-}
-
-
 .mapa iframe {
   display: block;
   width: 100%;
@@ -163,3 +148,23 @@ body {
 #footer a:hover {
   text-decoration: underline;
 }
+
+.boton-le {
+  background-color: #00000000;
+  color: rgb(255, 255, 255); 
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.boton-le:hover {
+  background-color: #121212;
+  transform: scale(1.03);
+  color: #ffffff;
+}
+
+
+
