@@ -118,6 +118,9 @@ body {
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
+.contacto img:hover{
+  
+}
 .boton-le {
   background-color: #00000000;
   color: rgb(255, 255, 255); 
