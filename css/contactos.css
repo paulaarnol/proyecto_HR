@@ -177,4 +177,6 @@ body {
   opacity: 0;
   transition: opacity 1s ease-in-out;
 }
-
+.mostrar.visible {
+  opacity: 1;
+}
