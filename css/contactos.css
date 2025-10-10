@@ -119,7 +119,8 @@ body {
 }
 
 .contacto img:hover{
-  
+  transform: scale(1.1);
+  opacity: 0.9;
 }
 .boton-le {
   background-color: #00000000;
