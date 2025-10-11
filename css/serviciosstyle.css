@@ -71,7 +71,19 @@ header img:hover { transform: scale(1.04) rotate(-1deg); }
   outline-offset:6px;
 }
 #navegacion a:focus { box-shadow: 0 0 0 4px rgba(255,76,97,0.08); border-radius:6px; }
-
+#navegacion a::after{
+    content:"";
+    position:absolute;
+    height:3px;
+    left:0;
+    right:0;
+    bottom:-6px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--transition-med) cubic-bezier(.2,.9,.2,1);
+    border-radius: 6px;
+}
 
 #navegacion a:hover,
 #navegacion a.activo {
