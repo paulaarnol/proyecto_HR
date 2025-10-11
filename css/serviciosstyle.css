@@ -29,10 +29,8 @@ html, body {
   scroll-behavior: smooth;
 }
 main{
-      max-width: var(--max-width);
-      
+    max-width: var(--max-width);
     margin: 48px auto;
-    
     padding: 40px 20px;
 }
 
