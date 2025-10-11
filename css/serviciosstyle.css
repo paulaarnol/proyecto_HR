@@ -11,6 +11,7 @@
     --radius-md: 8px;
     --max-width: 1100px;
     --transition-fast: 180ms;
+       --transition-med: 340ms;
 
 }
 body {
