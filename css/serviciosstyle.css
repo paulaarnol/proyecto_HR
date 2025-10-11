@@ -17,6 +17,7 @@
 @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
+* { margin:0; padding:0; box-sizing:border-box; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
