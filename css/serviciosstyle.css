@@ -13,7 +13,9 @@
     --transition-fast: 180ms;
     --transition-med: 340ms;
     --transition-slow: 600ms;
-
+}
+@media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
 body {
   font-family: Arial, sans-serif;
