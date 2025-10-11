@@ -63,7 +63,7 @@ header img:hover { transform: scale(1.04) rotate(-1deg); }
 #navegacion a {
   position:relative;
   text-decoration:none;
-  
+  color:var(--text);
 
 }
 
