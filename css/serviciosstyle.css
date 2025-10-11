@@ -3,6 +3,8 @@
     --surface:#1e1e1e;
     --muted:#bfbfbf;
     --text:#eaeaea;
+       --accent:#7a0000;
+    --accent-2:#7a0000;
 }
 body {
   font-family: Arial, sans-serif;
