@@ -24,6 +24,7 @@ html, body {
   background: linear-gradient(180deg, var(--bg) 0%, #0b0b0b 60%);
   color:var(--text);
   font-family: "Inter", "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height:1.6;
 }
 
 header {
