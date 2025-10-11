@@ -28,6 +28,9 @@ html, body {
   -webkit-font-smoothing:antialiased;
   scroll-behavior: smooth;
 }
+main{
+  
+}
 
 header {
   position: sticky; 
