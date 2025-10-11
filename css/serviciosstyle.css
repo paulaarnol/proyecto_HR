@@ -5,6 +5,7 @@
     --text:#eaeaea;
        --accent:#7a0000;
     --accent-2:#7a0000;
+      --glass-rgba: rgba(255,255,255,0.03);
 }
 body {
   font-family: Arial, sans-serif;
