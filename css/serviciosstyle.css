@@ -110,6 +110,18 @@ h2 {
     border-left:4px solid linear-gradient(180deg,var(--accent),var(--accent-2));
     position:relative;
 }
+h2::after {
+    content:"";
+    position:absolute;
+    left:-8px;
+    top:8px;
+    width:8px;height:8px;
+    background:var(--accent);
+    border-radius:50%;
+    box-shadow: 0 6px 24px rgba(255,76,97,0.1);
+}
+
+
 
 
 main > h1 {
