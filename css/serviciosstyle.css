@@ -1,6 +1,7 @@
 :root{
      --bg:#0f0f10;
         --surface:#1e1e1e;
+           --muted:#bfbfbf;
 }
 body {
   font-family: Arial, sans-serif;
