@@ -168,6 +168,7 @@ body {
   cursor: pointer;
   z-index: 1;
   transition: color 0.3s;
+}
 
 .boton-le {
   background-color: #00000000;
