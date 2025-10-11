@@ -178,11 +178,12 @@ body {
   right: -2px;
   bottom: -2px;
   border-radius: 12px;
-  background: linear-gradient(270deg, rgb(171, 17, 17), rgb(50, 2, 2), rgb(255, 0, 0));
+  background:  #7a0000;
   background-size: 600% 600%;
   z-index: -1;
   animation: brillo 4s linear infinite;
-  filter: blur(2px);
+  filter: blur(2px); 
+}
 
 .boton-le {
   background-color: #00000000;
