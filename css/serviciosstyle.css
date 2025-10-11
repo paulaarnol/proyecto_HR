@@ -30,6 +30,8 @@ html, body {
 }
 main{
       max-width: var(--max-width);
+      
+    margin: 48px auto;
 }
 
 header {
