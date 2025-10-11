@@ -103,7 +103,13 @@ h1 {
     line-height:1.05;
     text-shadow: 0 2px 18px rgba(0,0,0,0.7);
 }
-
+h2 {
+    font-size:1.75rem;
+    margin: 36px 0 18px;
+    padding-left:12px;
+    border-left:4px solid linear-gradient(180deg,var(--accent),var(--accent-2));
+    position:relative;
+}
 
 
 main > h1 {
