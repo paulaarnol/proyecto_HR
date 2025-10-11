@@ -84,12 +84,8 @@ header img:hover { transform: scale(1.04) rotate(-1deg); }
     transition: transform var(--transition-med) cubic-bezier(.2,.9,.2,1);
     border-radius: 6px;
 }
-
-#navegacion a:hover,
-#navegacion a.activo {
-  background: #f7f4f4;
-  color: #7a0000;
-}
+#navegacion a:hover::after,
+#navegacion a.activo::after { transform: scaleX(1); }
 
 main > h1 {
   margin-top: 40px;
