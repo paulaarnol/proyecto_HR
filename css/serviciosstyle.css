@@ -43,7 +43,7 @@ header {
     backdrop-filter: blur(6px) saturate(1.05);
     padding: 12px 32px;
     position: sticky;
-    
+    top: 10px;
 }
 
 header .galeria\logo.png {
