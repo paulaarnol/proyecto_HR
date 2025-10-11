@@ -92,7 +92,10 @@ header.scrolled {
     box-shadow: 0 12px 36px rgba(0,0,0,0.7);
     transform: translateY(-4px);
 }
-
+h1, h2 {
+    color: #fff;
+    letter-spacing: 0.6px;
+}
 
 main > h1 {
   margin-top: 40px;
