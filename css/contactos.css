@@ -203,6 +203,8 @@ body {
   100% { background-position: 0% 50%; }
 }
 
+.boton-le:hover {
+
 .boton-le {
   background-color: #00000000;
   color: rgb(255, 255, 255); 
