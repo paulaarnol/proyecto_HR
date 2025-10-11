@@ -35,14 +35,8 @@ main{
 }
 
 header {
-  position: sticky; 
-  top: 0;
-  display: flex; 
-  justify-content: space-between;
-  align-items: center;
-  background: #7a0000;
-  padding: 0px 20px;
-  color: white;
+    display:flex;
+
 }
 
 header .galeria\logo.png {
