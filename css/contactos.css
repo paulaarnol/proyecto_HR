@@ -185,6 +185,8 @@ body {
   filter: blur(2px); 
 }
 
+.boton-le::after {
+
 .boton-le {
   background-color: #00000000;
   color: rgb(255, 255, 255); 
