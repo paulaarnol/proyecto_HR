@@ -21,7 +21,7 @@
 * { margin:0; padding:0; box-sizing:border-box; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
 html, body {
   height:100%;
-  
+  background: linear-gradient(180deg, var(--bg) 0%, #0b0b0b 60%);
 }
 
 header {
