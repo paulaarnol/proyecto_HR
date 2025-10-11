@@ -66,6 +66,7 @@ header img:hover { transform: scale(1.04) rotate(-1deg); }
   color:var(--text);
   font-weight:600;
   font-size:15px;
+  padding:6px 4px;
 
 }
 
