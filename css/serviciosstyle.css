@@ -54,6 +54,8 @@ header:hover { transform: translateY(-2px); }
 
 header .galeria\logo.png {
   height: 50px;
+  header img { height:56px; width:auto; display:block; transition: transform var(--transition-med); }
+header img:hover { transform: scale(1.04) rotate(-1deg); }
 }
 
 #navegacion ul {
