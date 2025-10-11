@@ -10,6 +10,7 @@
        --radius-lg: 12px;
     --radius-md: 8px;
     --max-width: 1100px;
+    --transition-fast: 180ms;
 
 }
 body {
