@@ -186,6 +186,15 @@ body {
 }
 
 .boton-le::after {
+   content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  border-radius: 8px;
+  background: #111;
+  z-index: -1;
 
 .boton-le {
   background-color: #00000000;
