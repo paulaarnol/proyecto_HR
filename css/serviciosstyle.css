@@ -26,6 +26,7 @@ html, body {
   font-family: "Inter", "Segoe UI", Arial, Helvetica, sans-serif;
   line-height:1.6;
   -webkit-font-smoothing:antialiased;
+  scroll-behavior: smooth;
 }
 
 header {
