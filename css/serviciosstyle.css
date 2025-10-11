@@ -29,7 +29,7 @@ html, body {
   scroll-behavior: smooth;
 }
 main{
-  
+      max-width: var(--max-width);
 }
 
 header {
