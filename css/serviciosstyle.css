@@ -68,7 +68,7 @@ header img:hover { transform: scale(1.04) rotate(-1deg); }
   font-size:15px;
   padding:6px 4px;
   transition: color var(--transition-fast), transform var(--transition-fast);
-
+  outline-offset:6px;
 }
 
 
