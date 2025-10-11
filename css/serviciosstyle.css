@@ -61,11 +61,8 @@ header img:hover { transform: scale(1.04) rotate(-1deg); }
 #navegacion ul { list-style:none; display:flex; gap:28px; align-items:center; }
 
 #navegacion a {
-  text-decoration: none;
-  color: white;
-  padding: 8px 12px; 
-  border-radius: 4px;
-  transition: background 0.3s;
+  position:relative;
+
 }
 
 
