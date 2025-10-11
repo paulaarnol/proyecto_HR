@@ -170,6 +170,8 @@ body {
   transition: color 0.3s;
 }
 
+.boton-le::before {
+
 .boton-le {
   background-color: #00000000;
   color: rgb(255, 255, 255); 
