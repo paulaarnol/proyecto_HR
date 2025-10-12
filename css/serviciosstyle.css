@@ -335,3 +335,23 @@ section li { margin-bottom:10px; color:var(--muted); }
 }
 
 .fab:hover { transform: translateY(-8px) scale(1.02); box-shadow: 0 28px 70px rgba(230,59,82,0.24); }
+
+.hero {
+    position:relative;
+    padding:36px;
+    border-radius:18px;
+    overflow:hidden;
+    background: linear-gradient(180deg, rgba(255,255,255,0.015), rgba(0,0,0,0.03));
+    border: 1px solid rgba(255,255,255,0.02);
+}
+.hero::after{
+    content:"";
+    position:absolute; inset:-2px;
+    background: linear-gradient(120deg, rgba(255,76,97,0.06), rgba(230,59,82,0.04), rgba(255,255,255,0.01));
+    z-index:0;
+    filter: blur(18px);
+    opacity:0.6;
+    transition: opacity var(--transition-slow);
+    pointer-events:none;
+}
+.hero .content { position:relative; z-index:2; }
