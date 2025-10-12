@@ -311,3 +311,6 @@ section li { margin-bottom:10px; color:var(--muted); }
 
 .mostrar { opacity:0; transform: translateY(20px); transition: opacity var(--transition-slow) var(--transition-med), transform var(--transition-slow) var(--transition-med); }
 .mostrar.visible { opacity:1; transform: translateY(0); }
+
+.resaltar { transition: box-shadow var(--transition-fast), transform var(--transition-fast); }
+.resaltar:hover { box-shadow: 0 18px 48px rgba(255,76,97,0.12); transform: translateY(-6px) scale(1.02); }
