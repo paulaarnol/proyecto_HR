@@ -333,3 +333,5 @@ section li { margin-bottom:10px; color:var(--muted); }
     z-index: 1400;
     transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
+
+.fab:hover { transform: translateY(-8px) scale(1.02); box-shadow: 0 28px 70px rgba(230,59,82,0.24); }
