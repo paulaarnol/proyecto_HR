@@ -362,3 +362,7 @@ section li { margin-bottom:10px; color:var(--muted); }
     main { padding:28px 18px; margin-top:20px; }
     #navegacion ul { gap:14px; flex-wrap:wrap; }
 }
+
+::-webkit-scrollbar { width:10px; height:10px; }
+::-webkit-scrollbar-thumb { background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02)); border-radius:999px; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.02); }
+::-webkit-scrollbar-track { background: transparent; }
