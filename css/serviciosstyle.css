@@ -289,4 +289,7 @@ img {
 }
 img:hover { transform: translateY(-6px) scale(1.02); filter: brightness(1.04) saturate(1.06); }
 
+section ul { padding-left:18px; margin-top:8px; color:var(--muted); }
+section li { margin-bottom:10px; color:var(--muted); }
+
 
