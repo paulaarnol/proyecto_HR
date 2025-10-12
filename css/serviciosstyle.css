@@ -308,3 +308,6 @@ section li { margin-bottom:10px; color:var(--muted); }
 
 .animar { transition: transform var(--transition-med) ease-in-out; }
 .animar:hover { transform: translateY(-6px) scale(1.04); }
+
+.mostrar { opacity:0; transform: translateY(20px); transition: opacity var(--transition-slow) var(--transition-med), transform var(--transition-slow) var(--transition-med); }
+.mostrar.visible { opacity:1; transform: translateY(0); }
