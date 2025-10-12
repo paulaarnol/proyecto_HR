@@ -16,9 +16,9 @@
     </div>
              <nav class="navbar">
                 <ul class="nav-links">
-                    <li><a href="https://paulaarnol.github.io/proyecto_HR/contacto.html">➟contacto</a></li>
-                    <li><a href="https://paulaarnol.github.io/proyecto_HR/productos.html">➟Producto</a></li>
-                    <li><a href="https://paulaarnol.github.io/proyecto_HR/servicios.html">➟Servicios</a></li>
+                    <li><a href="https://paulaarnol.github.io/proyecto_HR/contacto.html">Contacto</a></li>
+                    <li><a href="https://paulaarnol.github.io/proyecto_HR/productos.html">Producto</a></li>
+                    <li><a href="https://paulaarnol.github.io/proyecto_HR/servicios.html">Servicios</a></li>
                 </ul>
             </nav>
         </header>
