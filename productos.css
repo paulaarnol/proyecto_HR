@@ -119,13 +119,6 @@ article.taller img {
   transition: transform 0.3s ease;
 }
 
-/*La imagen se agranda con el pulsor pasa por arriba*/
-              article.taller img:hover {
-                transform: scale(1.045);
-              }
-              article.taller p:hover {
-                transform: scale(1.045);
-              }
 
 article.taller p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
