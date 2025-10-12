@@ -546,3 +546,7 @@ input[type="submit"]:hover {
   color: #ff2770;
   font-weight: 600;
 }
+
+section .raul{
+  justify-content: center;
+}
