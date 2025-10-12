@@ -355,3 +355,10 @@ section li { margin-bottom:10px; color:var(--muted); }
     pointer-events:none;
 }
 .hero .content { position:relative; z-index:2; }
+
+@media (max-width:900px){
+    header { padding:12px 18px; margin:8px; }
+    h1 { font-size:2rem; }
+    main { padding:28px 18px; margin-top:20px; }
+    #navegacion ul { gap:14px; flex-wrap:wrap; }
+}
