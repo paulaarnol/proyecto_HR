@@ -28,9 +28,7 @@
                 <h1>Elige HR por esto</h1>
                 <p>Somos una empresa dedicada al servicio de automotores, con años de experiencia en el mercado. Buscando ofrecer un servicio de excelente calidad. En nuestra pagina, podras encontrar informacion escencial como nuestros productos, referencias de nuestro trabajo, nuestras formas de contacto, etc.</p>
             </div>
-        <video class="hero-video" autoplay loop muted>
-                <source src="video.mp4" type="video/mp4">
-            </video>
+
         
         </main>
     </div>
