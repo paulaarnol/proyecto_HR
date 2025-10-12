@@ -235,5 +235,16 @@ section:hover::before { opacity:1; }
     list-style:none;
 }
 
+#servicios li {
+    background: linear-gradient(180deg, rgba(255,255,255,0.015), rgba(0,0,0,0.04));
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: var(--soft-shadow);
+    text-align:center;
+    font-weight:700;
+    transition: transform var(--transition-med) cubic-bezier(.2,.9,.2,1), box-shadow var(--transition-med);
+    border: 1px solid rgba(255,255,255,0.02);
+    overflow: hidden;
+}
 
 
