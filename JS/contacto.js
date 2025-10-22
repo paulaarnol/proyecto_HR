@@ -13,5 +13,7 @@ function crearParticulas(contenedor, cantidad) {
         const part = document.createElement("div");
         part.classList.add("particula");
         part.style.left = Math.random() * 100 + "%";
-    part.style.top = Math.random() * 100 + "%";
+        part.style.top = Math.random() * 100 + "%";
+        part.style.animationDuration = 5 + Math.random() * 10 + "s";
+    part.style.animationDelay = Math.random() * 5 + "s";
     }
