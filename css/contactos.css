@@ -112,7 +112,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-
+/*modifica esto */
 .contacto h3 {
   color: #fff;
   margin-bottom: 15px;
@@ -125,8 +125,6 @@ body {
   max-width: 80px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
-
-
 .contacto img:hover{
   transform: scale(1.1);
   opacity: 0.9;
@@ -140,6 +138,7 @@ body {
 .contacto a:hover {
   text-decoration: underline;
 }
+/*hasta aca*/
 .mapa iframe {
   display: block;
   width: 100%;
