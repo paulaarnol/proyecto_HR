@@ -71,7 +71,13 @@ body {
   padding: 8px 12px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-.contacto-junto 
+.contacto-junto {
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
 
 
 .intro {
