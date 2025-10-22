@@ -12,7 +12,9 @@ body {
   --brand: #ff0000;
   --brand-2: #cc0000;
 }
+.particula {
 
+}
 .header {
   position: sticky;
   top: 0;
