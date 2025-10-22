@@ -26,7 +26,7 @@ body {
 @keyframes flotar{
   0% { transform: translateY(0) scale(1);  opacity: 0.8; }
   100% { transform: translateY(-120vh) scale(0.5); opacity: 0; }
-  
+}
 .header {
   position: sticky;
   top: 0;
