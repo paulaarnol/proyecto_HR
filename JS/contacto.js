@@ -9,3 +9,4 @@
 
 /*Mi parte*/
 function crearParticulas(contenedor, cantidad) {
+    for (let i = 0; i < cantidad; i++) {
