@@ -13,8 +13,16 @@ body {
   --brand-2: #cc0000;
 }
 .particula {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+  background: radial-gradient(circle, #ffffff, transparent);
+  border-radius: 50%;
+  animation: flotar 10s linear infinite;
+  pointer-events: none;
+  opacity: 0.8;
+  z-index: 0;
 
-}
 .header {
   position: sticky;
   top: 0;
