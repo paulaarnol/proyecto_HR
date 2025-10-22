@@ -178,7 +178,8 @@ body {
   right: -2px;
   bottom: -2px;
   border-radius: 12px;
-  background:  #7a0000;
+  /*cambia el color al dar vueltitas*/
+ background: linear-gradient(270deg, rgb(171, 17, 17), rgb(50, 2, 2), rgb(255, 0, 0)); 
   background-size: 600% 600%;
   z-index: -1;
   animation: brillo 4s linear infinite;
@@ -204,7 +205,7 @@ body {
 }
 
 .boton-le:hover {
-  color: #7a0000;
+  color: #860000;
 }
 
 .boton-le {
