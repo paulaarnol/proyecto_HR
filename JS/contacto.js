@@ -17,4 +17,5 @@ function crearParticulas(contenedor, cantidad) {
         part.style.animationDuration = 5 + Math.random() * 10 + "s";
     part.style.animationDelay = Math.random() * 5 + "s";
     contenedor.appendChild(part);
-    
+    }
+}
