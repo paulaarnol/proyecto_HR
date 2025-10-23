@@ -43,8 +43,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #1e1e1e;
-  padding: 8px 20px;
+  background: rgba(30, 30, 30, 0.9);
+  padding: 10px 20px;
   z-index: 50;
   gap: 12px;
 }
