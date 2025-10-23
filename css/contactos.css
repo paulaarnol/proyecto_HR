@@ -79,6 +79,10 @@ body {
 }
 
 .menu a:hover {
+    background-color: #d20000;
+  color: #ffffff;
+  border-radius: 5px;
+}
 
 .contacto-junto {
   text-align: center;
@@ -122,7 +126,7 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 /*modifica esto */
-.contacto h3 {
+.contacto:hover {
   color: #fff;
   margin-bottom: 15px;
   font-size: 16px;
