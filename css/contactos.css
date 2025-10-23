@@ -8,7 +8,7 @@ body {
   animation: moverFondo 15s ease infinite;
    position: relative;
 }
-
+@keyframes moverFondo {
 
 :root {
   --text: #ffffff;
