@@ -72,7 +72,7 @@ body {
 
 .menu a {
   text-decoration: none;
-  color: #ffffff;
+  color:red;
   font-weight: bold;
   padding: 8px 12px;
   transition: background-color 0.3s ease, color 0.3s ease;
