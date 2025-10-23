@@ -78,6 +78,8 @@ body {
   transition:0.3s;
 }
 
+.menu a:hover {
+
 .contacto-junto {
   text-align: center;
   padding: 80px 20px;
