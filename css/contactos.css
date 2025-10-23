@@ -51,9 +51,6 @@ body {
 
 .logo img{
   height: 50px;
-  width: auto;
-  display: block;
-  object-fit: contain;
 }
 
 .menu {
