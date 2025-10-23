@@ -45,8 +45,8 @@ body {
   align-items: center;
   background: rgba(30, 30, 30, 0.9);
   padding: 10px 20px;
-  z-index: 50;
-  gap: 12px;
+  color: white;
+  z-index: 10;
 }
 
 .logo img{
