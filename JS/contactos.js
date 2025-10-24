@@ -1,6 +1,12 @@
 /*aca tu parte*/
 const botones = document.querySelectorAll('.boton-le');
 
+botones.forEach(boton => {
+  boton.addEventListener('mouseenter', () => {
+    boton.style.transform = 'scale(1.1)';
+    boton.style.transition = '0.3s';
+    boton.style.boxShadow = '0 0 10px #ffffff';
+  });
 
 
 
