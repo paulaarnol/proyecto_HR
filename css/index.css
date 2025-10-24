@@ -14,6 +14,16 @@ body {
     background-color: #000;
 }
 
+.top-color-bar{
+    width: 100%;
+    background-color: #000;
+    z-index: 1000;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+
 .hero-section {
     width: 100%;
     height: 100vh;
