@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background: linear-gradient(135deg, #121212, #1111, #121212);
+  background: linear-gradient(135deg, black,black, black);
   background-size: 300% 300%;
   animation: moverFondo 15s ease infinite;
    position: relative;
