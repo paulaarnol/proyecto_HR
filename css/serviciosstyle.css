@@ -36,6 +36,7 @@ main{
 
 header {
     display:flex;
+    height: 80px;
     align-items:center;
     justify-content:space-between;
     gap:20px;
