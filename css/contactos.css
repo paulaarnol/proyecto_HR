@@ -15,12 +15,10 @@ body {
 }
 
 :root {
-  --text: #ffffff;
-  --radius: 8px;
-  --speed: 0.3s;
-  --brand: #ff0000;
-  --brand-2: #cc0000;
-  --transition-fast: 180ms;
+    --text:#eaeaea;
+    --accent:#7a0000;
+    --transition-fast: 180ms;
+    --transition-med: 340ms;   
 }
 .particula {
   position: fixed;
