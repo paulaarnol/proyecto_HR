@@ -80,6 +80,16 @@ body {
     z-index: 1;
 }
 
+.content {
+    position: relative; 
+    z-index: 2;
+    padding: 150px 30px 0 30px;
+    margin-top: 80px;
+    width: 100%;
+    display: block; 
+}
+
+
 
 
 
@@ -90,17 +100,6 @@ body {
 
 
 
-.content {
-    position: relative; 
-    z-index: 2;
-    text-align: left;
-    padding: 0 50px;
-    margin-top: 150px;
-    width: 100%;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-}
 
 .text-content {
     max-width: 600px;
