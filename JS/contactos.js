@@ -1,5 +1,5 @@
 /*aca tu parte*/
-
+const botones = document.querySelectorAll('.boton-le');
 
 
 
