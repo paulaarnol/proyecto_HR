@@ -31,6 +31,11 @@ body {
     justify-content: space-between; 
     align-items: center;
 
+}
+.logo img {
+    height: 70px; 
+    transition: transform 0.4s ease-out;
+}
 
 
 .hero-section {
@@ -60,10 +65,6 @@ body {
 
 
 
-
-.logo img {
-    height: 50px; 
-}
 
 .navbar {
     position: relative;
