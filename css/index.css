@@ -22,6 +22,15 @@ body {
     padding-bottom: 4px;
 }
 
+.main-header {
+    position: absolute;
+    z-index: 1001;
+    width: 100%;
+    padding: 0px 55px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
 
 
 .hero-section {
@@ -49,15 +58,8 @@ body {
     z-index: 1;
 }
 
-.main-header {
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    padding: 30px 55px;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-}
+
+
 
 .logo img {
     height: 50px; 
