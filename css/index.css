@@ -47,6 +47,10 @@ body {
     gap: 30px;
 }
 
+.nav-links a {
+    
+}
+
 
 .hero-section {
     width: 100%;
@@ -82,11 +86,6 @@ body {
 }
 
 
-
-
-.nav-links a:hover {
-    color: #f00; 
-}
 
 .content {
     position: relative; 
