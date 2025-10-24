@@ -44,7 +44,7 @@ header {
     backdrop-filter: blur(6px) saturate(1.05);
     padding: 40px 20px;
     position: sticky;
-    top: 10px;
+    top: 0px;
     border-radius: 14px;
     z-index: 1100;
     box-shadow: 0 8px 30px rgba(0,0,0,0.6);
