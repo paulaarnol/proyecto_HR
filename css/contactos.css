@@ -203,6 +203,9 @@ header:hover {
     transition: color 0.3s ease-in-out, opacity 0.3s;
   }
   .footer-content p a:hover {
+    color: #ff0000;
+   opacity: 0.8;
+
 
 /*añadi aca tu parte */
 .boton-le {
