@@ -98,6 +98,10 @@ outline-offset:6px;
     transform: scaleX(1); 
    }
    header.scrolled {
+    padding:8px 22px;
+    box-shadow: 0 12px 36px rgba(0,0,0,0.7);
+    transform: translateY(-4px);
+  }
 
 .logo img{
   height: 50px;
