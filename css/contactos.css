@@ -95,6 +95,8 @@ outline-offset:6px;
    }
    #navegacion a:hover::after,
    #navegacion a.activo::after {
+    transform: scaleX(1); 
+   }
 .logo img{
   height: 50px;
 } 
