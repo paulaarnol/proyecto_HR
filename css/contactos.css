@@ -77,7 +77,8 @@ transition: color var(--transition-fast), transform var(--transition-fast);
 outline-offset:6px;
    }
    #navegacion a:focus {
-
+    box-shadow: 0 0 0 4px rgba(255,76,97,0.08); 
+    border-radius:6px; 
    
 
 
