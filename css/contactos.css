@@ -177,7 +177,7 @@ outline-offset:6px;
   padding: 25px;
   width: 260px;
   transition: 0.3s;
-  box-shadow: red;
+  box-shadow: rgb(82, 0, 0);
 }
 /*modifica esto */
 .contacto:hover {
