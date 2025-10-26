@@ -42,25 +42,7 @@ body {
 }
 
 
-.header {
-    display:flex;
-    height: 80px;
-    align-items:center;
-    justify-content:space-between;
-    gap:30px;
-    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-    backdrop-filter: blur(6px) saturate(1.05);
-    padding: 40px 20px;
-    position: sticky;
-    top: 0px;
-    border-radius: 14px;
-    z-index: 1100;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.6);
-    transition: transform var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast);
-}
-header:hover { 
-  transform: translateY(-2px);
- }
+
 
 
 .logo img{
