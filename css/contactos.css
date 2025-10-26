@@ -2,15 +2,23 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: black;
+  overflow-x: hidden;
+  background: linear-gradient(135deg, black,black, black);
+  background-size: 300% 300%;
+  animation: moverFondo 15s ease infinite;
+   position: relative;
+}
+@keyframes moverFondo {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 :root {
-  --text: #ffffff;
-  --radius: 8px;
-  --speed: 0.3s;
-  --brand: #ff0000;
-  --brand-2: #cc0000;
+    --text:#eaeaea;
+    --accent:#7a0000;
+    --transition-fast: 180ms;
+    --transition-med: 340ms;   
 }
 .particula {
   position: fixed;
@@ -40,23 +48,29 @@ body {
 
 
 .header {
-  position: sticky;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #1e1e1e;
-  padding: 8px 20px;
-  z-index: 50;
-  gap: 12px;
+    display:flex;
+    height: 80px;
+    align-items:center;
+    justify-content:space-between;
+    gap:30px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    backdrop-filter: blur(6px) saturate(1.05);
+    padding: 40px 20px;
+    position: sticky;
+    top: 0px;
+    border-radius: 14px;
+    z-index: 1100;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast);
 }
+header:hover { 
+  transform: translateY(-2px);
+ }
+
 
 .logo img{
   height: 50px;
-  width: auto;
-  display: block;
-  object-fit: contain;
-}
+} 
 
 .menu {
   position: absolute;
@@ -77,11 +91,18 @@ body {
 
 .menu a {
   text-decoration: none;
-  color: #ffffff;
+  color:red;
   font-weight: bold;
   padding: 8px 12px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:0.3s;
 }
+
+.menu a:hover {
+    background-color: #d20000;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
 .contacto-junto {
   text-align: center;
   padding: 80px 20px;
@@ -124,10 +145,12 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 /*modifica esto */
+.contacto:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 25px #830808cc;
+}
 .contacto h3 {
-  color: #fff;
   margin-bottom: 15px;
-  font-size: 16px;
   font-weight: bold;
 }
 .contacto img {
