@@ -206,7 +206,10 @@ header:hover {
     color: #ff0000;
    opacity: 0.8;
   }
-  .copyright {}
+  .copyright {
+    font-size: 0.8em;
+    color: #ff0000;
+  }
 
 /*añadi aca tu parte */
 .boton-le {
