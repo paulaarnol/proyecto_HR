@@ -172,12 +172,12 @@ outline-offset:6px;
 }
 
 .contacto {
-  background-color: black; 
+  background-color: rgb(59, 59, 59); 
   border-radius: 10px;
   padding: 25px;
   width: 260px;
   transition: 0.3s;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: red;
 }
 /*modifica esto */
 .contacto:hover {
