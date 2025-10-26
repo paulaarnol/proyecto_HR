@@ -131,11 +131,11 @@ header:hover {
 }
 
 .contacto {
-  text-align: center;
-  padding: 20px;
-  max-width: 250px;
   background-color: black; 
   border-radius: 10px;
+  padding: 25px;
+  width: 260px;
+  transition: 0.3s;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 /*modifica esto */
@@ -186,24 +186,6 @@ header:hover {
   bottom: 0;
   left: 0;
   z-index: 10;}
-  .footer-content h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-  }
-  .footer-content p a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s ease-in-out, opacity 0.3s;
-  }
-  .footer-content p a:hover {
-    color: #ff0000;
-   opacity: 0.8;
-  }
-  .copyright {
-    font-size: 0.8em;
-    color: #ff0000;
-  }
 
 /*añadi aca tu parte */
 .boton-le {
@@ -274,6 +256,24 @@ header:hover {
   background-color: #121212;
   transform: scale(1.03);
   color: #ffffff;
+}
+.footer-content h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+.footer-content p a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out, opacity 0.3s;
+}
+.footer-content p a:hover {
+  color: #ff0000;
+ opacity: 0.8;
+}
+.copyright {
+  font-size: 0.8em;
+  color: #ff0000;
 }
 
 
