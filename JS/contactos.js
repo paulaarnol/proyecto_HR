@@ -14,7 +14,7 @@ botones.forEach(boton => {
 });
 
 /*Mi parte*/
-function crearParticulas(contenedor, cantidad) {
+function crearParticula(contenedor, cantidad) {
     for (let i = 0; i < cantidad; i++) {
         const part = document.createElement("div");
         part.classList.add("particula");
@@ -25,4 +25,4 @@ function crearParticulas(contenedor, cantidad) {
     contenedor.appendChild(part);
     }
 }
-crearParticulas(document.body, 40);
+crearParticula(document.body, 40);
