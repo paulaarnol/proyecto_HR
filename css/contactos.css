@@ -67,6 +67,14 @@ header:hover {
    }
 
    #navegacion a {
+    position:relative;
+text-decoration:none;
+color:var(--text);
+font-weight:600;
+font-size:15px;
+padding:6px 4px;
+transition: color var(--transition-fast), transform var(--transition-fast);
+outline-offset:6px;
 
 
 .logo img{
