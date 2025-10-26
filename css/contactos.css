@@ -75,7 +75,7 @@ font-size:15px;
 padding:6px 4px;
 transition: color var(--transition-fast), transform var(--transition-fast);
 outline-offset:6px;
-
+   }
 
 .logo img{
   height: 50px;
