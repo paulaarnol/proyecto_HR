@@ -97,6 +97,8 @@ outline-offset:6px;
    #navegacion a.activo::after {
     transform: scaleX(1); 
    }
+   header.scrolled {
+
 .logo img{
   height: 50px;
 } 
