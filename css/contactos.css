@@ -92,7 +92,7 @@ outline-offset:6px;
     transform-origin: left;
     transition: transform var(--transition-med) cubic-bezier(.2,.9,.2,1);
     border-radius: 6px;
-
+   }
 
 .logo img{
   height: 50px;
