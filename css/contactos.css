@@ -60,6 +60,10 @@ header:hover {
   transform: translateY(-2px);
 }
 #navegacion ul {
+  list-style:none;
+   display:flex; 
+   gap:28px; 
+   align-items:center;
 
 
 
