@@ -290,3 +290,6 @@ article.taller p {
   text-decoration: underline;
 }
 
+@media (max-width: 1024px) {
+  
+  }
