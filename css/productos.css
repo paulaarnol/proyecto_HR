@@ -290,10 +290,3 @@ article.taller p {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-  .logo img { height: 42px; }
-  h1 { font-size: 2rem; margin-top: 18px; }
-  #encabezado { padding: 8px 12px; }
-  #navegación #lista { gap: 10px; font-size: 0.95rem; }
-  section, main > .turbos { padding: 18px; margin: 12px; }
-}
