@@ -1,5 +1,8 @@
 :root{
-  
+  --text:#eaeaea;
+  --accent:#7a0000;
+  --transition-fast: 180ms;
+  --transition-med: 340ms;
 }
 *{
     margin: 0;
