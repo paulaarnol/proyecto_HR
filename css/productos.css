@@ -291,5 +291,10 @@ article.taller p {
 }
 
 @media (max-width: 1024px) {
-  
+  header {
+    flex-direction: column;
+    gap: 15px;
+    height: auto;
+    padding: 20px 10px;
+    text-align: center;
   }
