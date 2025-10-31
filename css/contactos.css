@@ -8,6 +8,16 @@ body {
   animation: moverFondo 15s ease infinite;
    position: relative;
 }
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+}
 @keyframes moverFondo {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
