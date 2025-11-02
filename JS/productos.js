@@ -19,3 +19,8 @@ cards.forEach(card => {
     });
 });
 const botones = document.querySelectorAll('.boton-le');
+botones.forEach(boton => {
+   boton.addEventListener('mouseenter', () => {
+    
+  });
+});
