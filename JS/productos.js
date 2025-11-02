@@ -25,4 +25,8 @@ botones.forEach(boton => {
     boton.style.transition = '0.3s';
     boton.style.boxShadow = '0 0 10px #ffffff';
   });
+  boton.addEventListener('mouseleave', () => {
+    boton.style.transform = 'scale(1)';
+    boton.style.boxShadow = 'none';
+  });
 });
