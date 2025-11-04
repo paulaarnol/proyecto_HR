@@ -139,6 +139,11 @@ body {
     animation-delay: 2.5s;
 }
 
+.animar {
+    transition: transform 0.3s ease-out;
+}
+
+.animar
 
 
 .main-footer {
