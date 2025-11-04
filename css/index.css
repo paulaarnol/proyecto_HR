@@ -152,8 +152,12 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
+.resaltar:hover {
+    color: #636341;
+    transform: scale(1.02);
+}
 
-
+.resaltar-neon
 .main-footer {
     width: 100%;
     background-color: #000; 
