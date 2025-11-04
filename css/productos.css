@@ -319,3 +319,7 @@ article.taller p {
   .galeria {
     grid-template-columns: repeat(2, 1fr);
   }
+ .animaciones-fila {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
