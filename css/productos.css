@@ -310,3 +310,8 @@ article.taller p {
   h1 {
     font-size: 2.3rem;
   }
+  section, main > .turbos {
+    padding: 18px;
+    margin: 14px auto;
+  }
+}
