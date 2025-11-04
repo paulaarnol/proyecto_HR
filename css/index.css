@@ -124,6 +124,10 @@ body {
     animation-delay: 0.5s;
 }
 
+.text-content p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
 
 
 
