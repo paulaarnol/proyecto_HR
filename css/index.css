@@ -134,6 +134,13 @@ body {
     animation-delay: 1.5s;
 }
 
+.text-content p: :nth-of-type(2) {
+    animation: fade-in-up 1s ease-out forwards;
+    animation-delay: 2.5s;
+}
+
+
+
 .main-footer {
     width: 100%;
     background-color: #000; 
