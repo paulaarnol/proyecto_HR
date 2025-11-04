@@ -323,3 +323,11 @@ article.taller p {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .animacion-turbo1,
+  .animacion-turbo2,
+  .animacion-turbo3 {
+    width: 90%;
+    max-width: 350px;
+    height: 220px;
+    margin: 0 auto;
+  }
