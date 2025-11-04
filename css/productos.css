@@ -331,3 +331,6 @@ article.taller p {
     height: 220px;
     margin: 0 auto;
   }
+  .tres {
+    grid-template-columns: repeat(2, 1fr);
+  }
