@@ -304,3 +304,6 @@ article.taller p {
     gap: 16px;
     padding: 0;
   }
+  #navegacion a {
+    font-size: 14px;
+  }
