@@ -364,4 +364,7 @@ article.taller p {
   h2 {
     font-size: 1.2rem;
   }
+  p, label, input, button {
+    font-size: 14px;
+  }
 }
