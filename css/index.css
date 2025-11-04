@@ -115,9 +115,13 @@ body {
 }
 
 
-.navbar {
-    position: relative;
-    z-index: 2;
+.text-content h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    font-weight: 700;
+
+    animation: fade-in-up 1s ease-out forwards;
+    animation-delay: 0.5s;
 }
 
 
