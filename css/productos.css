@@ -379,4 +379,8 @@ article.taller p {
   .animacion-turbo3 {
     height: 180px;
   }
+  header img {
+    width: 80px;
+    height: auto;
+  }
 }
