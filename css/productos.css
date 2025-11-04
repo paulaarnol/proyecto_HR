@@ -374,4 +374,9 @@ article.taller p {
   .tres {
     grid-template-columns: 1fr;
   }
+  .animacion-turbo1,
+  .animacion-turbo2,
+  .animacion-turbo3 {
+    height: 180px;
+  }
 }
