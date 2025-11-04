@@ -30,3 +30,7 @@ botones.forEach(boton => {
     boton.style.boxShadow = 'none';
   });
 });
+function crearParticulas(contenedor, cantidad) {
+    for (let i = 0; i < cantidad; i++) {
+    }
+}
