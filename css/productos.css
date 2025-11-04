@@ -334,3 +334,6 @@ article.taller p {
   .tres {
     grid-template-columns: repeat(2, 1fr);
   }
+  .tres p {
+    font-size: 0.9rem;
+  }
