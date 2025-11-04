@@ -129,7 +129,10 @@ body {
     font-weight: 300;
 }
 
-
+.text-content p: :nth-of-type(1) {
+    animation: fade-in-up 1s ease-out forwards;
+    animation-delay: 1.5s;
+}
 
 .main-footer {
     width: 100%;
