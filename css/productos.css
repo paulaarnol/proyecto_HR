@@ -337,3 +337,7 @@ article.taller p {
   .tres p {
     font-size: 0.9rem;
   }
+  form {
+    width: 100%;
+    max-width: 100%;
+  }
