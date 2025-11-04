@@ -367,4 +367,11 @@ article.taller p {
   p, label, input, button {
     font-size: 14px;
   }
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+
+  .tres {
+    grid-template-columns: 1fr;
+  }
 }
