@@ -341,3 +341,9 @@ article.taller p {
     width: 100%;
     max-width: 100%;
   }
+  section[style] {
+    flex-direction: column;
+    align-items: center !important;
+    text-align: center;
+    gap: 20px !important;
+  }
