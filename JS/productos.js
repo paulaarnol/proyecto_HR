@@ -41,3 +41,4 @@ function crearParticulas(contenedor, cantidad) {
     contenedor.appendChild(part);
     }
 }
+crearParticulas(document.body, 100);
