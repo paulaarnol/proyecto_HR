@@ -315,3 +315,7 @@ article.taller p {
     margin: 14px auto;
   }
 }
+@media (max-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
