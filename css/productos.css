@@ -319,6 +319,10 @@ main {
     padding: 15px 0;
     border-top: 1px solid rgb(235, 15, 15);
 }
+.footer-content h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
 @media (max-width: 1024px) {
   header {
     flex-direction: column;
