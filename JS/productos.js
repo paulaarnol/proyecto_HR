@@ -64,3 +64,10 @@ boton.addEventListener('click', e => {
     const nuevoComentario = { nombre, mensaje, fecha: new Date().toLocaleString() };
     comentarios.push(nuevoComentario);
     localStorage.setItem('comentarios', JSON.stringify(comentarios));
+    
+    correo.value = '';
+    comentario.value = '';
+
+    mostrarComentarios();
+  }
+});
