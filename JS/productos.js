@@ -74,4 +74,8 @@ boton.addEventListener('click', e => {
 const modal = document.getElementById("modal-cargando");
 const navButtons = document.querySelectorAll('#navegacion a');
 navButtons.forEach(boton => {
+  boton.addEventListener('click', (e) => {
+    e.preventDefault(); 
+    mostrarModal();
+  });
 }
