@@ -71,3 +71,4 @@ boton.addEventListener('click', e => {
     mostrarComentarios();
   }
 });
+const modal = document.getElementById("modal-cargando");
