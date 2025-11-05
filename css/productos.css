@@ -430,3 +430,12 @@ article.taller p {
   font-size: 1.3rem;  /* Un poco más grande si querés */
   margin-bottom: 10px;
 }
+
+.comentarios input,
+.comentarios textarea {
+  width: 80%;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
