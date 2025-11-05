@@ -179,7 +179,12 @@ section h2 {
   gap: 10px;
   padding-left: 20px; 
 }
-
+#footer {
+  text-align: center;
+  padding: 30px;
+  background:black;
+  color: white;
+}
 
 section {
     margin-bottom:36px;
