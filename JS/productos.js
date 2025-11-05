@@ -43,7 +43,11 @@ function crearParticulas(contenedor, cantidad) {
 }
 crearParticulas(document.body, 100);
 
-const form = document.getElementById('form-comentario');
-const lista = document.getElementById('lista-comentarios');
+const correo = document.getElementById('correo');
+const comentario = document.getElementById('comentario');
+const boton = document.getElementById('enviar');
+const contenedorComentarios = document.createElement('div'); // contenedor dinámico
+contenedorComentarios.id = 'lista-comentarios';
+document.querySelector('.comentarios').appendChild(contenedorComentarios);
 
-let comentarios = JSON.parse(localStorage.getItem('comentarios')) || [];
+
