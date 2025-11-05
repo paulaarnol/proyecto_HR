@@ -425,3 +425,8 @@ article.taller p {
   gap: 10px;
   align-items: center;
 }
+.comentarios h3 {
+  text-align: center; /* Centra el texto */
+  font-size: 1.3rem;  /* Un poco más grande si querés */
+  margin-bottom: 10px;
+}
