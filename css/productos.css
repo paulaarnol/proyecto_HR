@@ -501,3 +501,12 @@ main {
   box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
   animation: aparecerModal 0.4s ease;
 }
+.loader {
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  border-top: 5px solid #ff0000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 15px;
+  animation: girar 1s linear infinite;
+}
