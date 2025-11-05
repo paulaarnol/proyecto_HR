@@ -439,3 +439,7 @@ article.taller p {
   border-radius: 6px;
   font-size: 14px;
 }
+.comentarios textarea {
+  height: 120px; /* Aumenta la altura de la caja de comentarios */
+  resize: vertical; /* Permite que el usuario la agrande si quiere */
+}
