@@ -185,6 +185,10 @@ section h2 {
   background:black;
   color: white;
 }
+#footer a {
+  color: #7a0000;
+  text-decoration: none;
+}
 
 section {
     margin-bottom:36px;
