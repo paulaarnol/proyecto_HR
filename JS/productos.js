@@ -42,3 +42,8 @@ function crearParticulas(contenedor, cantidad) {
     }
 }
 crearParticulas(document.body, 100);
+
+const form = document.getElementById('form-comentario');
+const lista = document.getElementById('lista-comentarios');
+
+let comentarios = JSON.parse(localStorage.getItem('comentarios')) || [];
