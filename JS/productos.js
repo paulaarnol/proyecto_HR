@@ -83,3 +83,10 @@ navButtons.forEach(boton => {
     mostrarModal();
   });
 });
+
+function mostrarModal() {
+  modal.style.display = 'flex';
+  setTimeout(() => {
+    modal.style.display = 'none';
+  }, 2000);
+}
