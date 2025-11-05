@@ -53,3 +53,14 @@ document.querySelector('.comentarios').appendChild(contenedorComentarios);
 let comentarios = JSON.parse(localStorage.getItem('comentarios')) || [];
 
 mostrarComentarios();
+
+boton.addEventListener('click', e => {
+  e.preventDefault();
+
+  const nombre = correo.value.trim();
+  const mensaje = comentario.value.trim();
+
+  if (nombre && mensaje) {
+    const nuevoComentario = { nombre, mensaje, fecha: new Date().toLocaleString() };
+    comentarios.push(nuevoComentario);
+    localStorage.setItem('comentarios', JSON.stringify(comentarios));
