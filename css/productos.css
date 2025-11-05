@@ -455,3 +455,9 @@ article.taller p {
   font-weight: bold;
   transition: 0.3s;
 }
+.comentarios button:hover {
+  background-color: #7a0000;
+  border-color: #7a0000;
+  color: white;
+  transform: scale(1.05);
+}
