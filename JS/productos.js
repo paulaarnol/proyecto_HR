@@ -78,4 +78,8 @@ navButtons.forEach(boton => {
     e.preventDefault(); 
     mostrarModal();
   });
-}
+    boton.addEventListener('contextmenu', (e) => {
+    e.preventDefault(); 
+    mostrarModal();
+  });
+});
