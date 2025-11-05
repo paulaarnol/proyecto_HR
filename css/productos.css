@@ -329,6 +329,10 @@ main {
     margin: 0 10px;
     transition: color 0.3s ease-in-out, opacity 0.3s;
 }
+.footer-content p a:hover {
+    color: #ff0000;
+    opacity: 0.8;
+}
 @media (max-width: 1024px) {
   header {
     flex-direction: column;
