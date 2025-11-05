@@ -50,4 +50,6 @@ const contenedorComentarios = document.createElement('div'); // contenedor diná
 contenedorComentarios.id = 'lista-comentarios';
 document.querySelector('.comentarios').appendChild(contenedorComentarios);
 
+let comentarios = JSON.parse(localStorage.getItem('comentarios')) || [];
 
+mostrarComentarios();
