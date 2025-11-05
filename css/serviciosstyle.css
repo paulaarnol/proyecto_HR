@@ -110,6 +110,7 @@ h2 {
     padding-left:12px;
     border-left:4px solid linear-gradient(180deg,var(--accent),var(--accent-2));
     position:relative;
+    color: #ffffff;
 }
 h2::after {
     content:"";
@@ -119,7 +120,7 @@ h2::after {
     width:8px;height:8px;
     background:var(--accent);
     border-radius:50%;
-    box-shadow: 0 6px 24px rgba(255,76,97,0.1);
+    box-shadow: 0 6px 24px rgba(255, 255, 255, 0.1);
 }
 
 main > p {
