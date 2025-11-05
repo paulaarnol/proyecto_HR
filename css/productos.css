@@ -299,7 +299,10 @@ article.taller p {
     100%   { background-image: url('galeria/3d/3Turbinadecoche/turboa.png'); }
 }
 
-
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
 @media (max-width: 1024px) {
   header {
