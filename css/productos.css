@@ -299,21 +299,7 @@ article.taller p {
     100%   { background-image: url('galeria/3d/3Turbinadecoche/turboa.png'); }
 }
 
-#footer {
-  text-align: center;
-  padding: 30px;
-  background: #222;
-  color: #fff;
-}
 
-#footer a {
-  color: #7a0000;
-  text-decoration: none;
-}
-
-#footer a:hover {
-  text-decoration: underline;
-}
 
 @media (max-width: 1024px) {
   header {
