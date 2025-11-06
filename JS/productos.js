@@ -105,7 +105,7 @@ navButtons.forEach(boton => {
   });
 });
 
-function mostrarModal() {
+function mostrarModal(destino) {
   modal.style.display = 'flex';
   setTimeout(() => {
     window.location.href = destino;
