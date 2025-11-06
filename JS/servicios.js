@@ -26,5 +26,6 @@ const navButtons = document.querySelectorAll('#navegacion a');
 
 
 const menuToggle = document.getElementById('menu-toggle');
+const navegacion = document.getElementById('navegacion');
 
 
