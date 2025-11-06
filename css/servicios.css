@@ -231,6 +231,11 @@ section h2 {
     bottom: 0;
     z-index: 10;
 }
+.footer-content h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
 
 section {
     margin-bottom:36px;
