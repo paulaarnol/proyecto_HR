@@ -535,3 +535,8 @@ main {
   color: white;
   cursor: pointer;
 }
+#navegacion ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
