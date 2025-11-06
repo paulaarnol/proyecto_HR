@@ -534,3 +534,10 @@ main {
     height: auto;
     padding: 10px 0;
   }
+.logo {
+    margin-bottom: 10px;
+  }
+
+  #navegacion ul {
+    display: none; 
+  }
