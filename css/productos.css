@@ -546,9 +546,9 @@ main {
   font-weight: bold;
 }
 #navegacion a:hover {
-  color: #b30000; /* bordó */
+  color: #b30000; 
 }
 @media (max-width: 768px) {
   .menu-toggle {
-    display: block; /* aparece el botón ☰ */
+    display: block;
   }
