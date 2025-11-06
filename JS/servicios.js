@@ -15,3 +15,4 @@ fab.addEventListener("click", () => {
 }
 document.querySelector("footer").appendChild(mensaje);
 const modal = document.getElementById("modal-cargando");
+const navButtons = document.querySelectorAll('#navegacion a');
