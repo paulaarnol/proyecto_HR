@@ -263,8 +263,16 @@ outline-offset:6px;
   border-radius: inherit;
   z-index: 0;
 }
-@keyframes bordeGirando { from { transform: rotate(0deg); } to { transform: rotate(360deg); } 
-
+@keyframes bordeGirando { from {
+  transform: rotate(0deg); } 
+  to { transform: rotate(360deg); 
+  } 
+.contacto.cj:hover::before { 
+  animation-duration: 1.8s; opacity: 1;
+   filter: brightness(1.4);
+   }
+.contacto.cj:hover { 
+  transform: translateY(-6px) scale(1.035); box-shadow: 0 10px 40px rgba(122, 0, 0, 0.45); }
 /*hasta aca*/
 .mapa iframe {
   display: block;
