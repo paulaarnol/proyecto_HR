@@ -31,7 +31,8 @@ html, body {
   line-height:1.6;
   -webkit-font-smoothing:antialiased;
   scroll-behavior: smooth;
-   overflow-x: hidden;
+  overflow-x: hidden;
+  background-size: 300% 300%;
 }
 main{
     max-width: var(--max-width);
