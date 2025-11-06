@@ -42,7 +42,7 @@ html, body {
   100% { background-position: 0% 50%; }
 }
 .particula {
-  
+   position: fixed;
 }
 
 main{
