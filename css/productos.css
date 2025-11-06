@@ -540,3 +540,8 @@ main {
   gap: 20px;
   list-style: none;
 }
+#navegacion a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
