@@ -5,7 +5,7 @@
     --text:#eaeaea;
     --accent:#7a0000;
     --accent-2:#7a0000;
-    --glass-rgba: rgba(255,255,255,0.03);
+    --glass-rgba: rgba(29, 11, 11, 0.03);
     --card-shadow: 0 6px 20px rgba(0,0,0,0.6);
     --radius-lg: 12px;
     --radius-md: 8px;
@@ -93,12 +93,28 @@ header {
 }
 header:hover { transform: translateY(-2px); }
 
-
-header .galeria\logo.png {
-  height: 50px;
-  header img { height:56px; width:auto; display:block; transition: transform var(--transition-med); }
-header img:hover { transform: scale(1.04) rotate(-1deg); }
+header img {
+  height: 56px;
+  width: auto;
+  display: block;
+  transition: transform var(--transition-med);
 }
+
+header img:hover {
+  transform: scale(1.04) rotate(-1deg);
+}
+
+header .logo {
+  height: 56px;
+  width: auto;
+  display: block;
+  transition: transform var(--transition-med);
+}
+
+header .logo:hover {
+  transform: scale(1.04) rotate(-1deg);
+}
+
 
 #navegacion ul { list-style:none; display:flex; gap:28px; align-items:center; }
 
@@ -461,7 +477,7 @@ section li { margin-bottom:10px; color:var(--muted); }
   display: block;
 }
 
-.menu-toggle {
+.menu{
   display: none;
   font-size: 30px;
   color: white;
