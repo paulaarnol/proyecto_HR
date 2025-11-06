@@ -115,3 +115,5 @@ const navegacion = document.getElementById('navegacion');
 menuToggle.addEventListener('click', () => {
   navegacion.classList.toggle('active');
 });
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("Script productos.js cargado");
