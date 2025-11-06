@@ -90,3 +90,9 @@ function mostrarModal() {
     modal.style.display = 'none';
   }, 2000);
 }
+const menuToggle = document.getElementById('menu-toggle');
+const navegacion = document.getElementById('navegacion');
+
+menuToggle.addEventListener('click', () => {
+  navegacion.classList.toggle('active');
+});
