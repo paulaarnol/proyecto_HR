@@ -219,7 +219,8 @@ outline-offset:6px;
     transform: translateY(0); 
   }
 .contacto.cj:hover i { 
- 
+  transform: scale(1.2); 
+  color: #471212;
  }
 
 
