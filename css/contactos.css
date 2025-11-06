@@ -195,15 +195,10 @@ outline-offset:6px;
   width: 100%;
   padding: 0 5vw;
 }
-
-.contacto {
-  background-color: rgb(59, 59, 59); 
-  border-radius: 10px;
-  padding: 25px;
-  width: 260px;
-  transition: 0.3s;
-  box-shadow: rgb(82, 0, 0);
+.contacto-cj {
+  
 }
+
 /*modifica esto */
 .contacto:hover {
   transform: scale(1.07);
