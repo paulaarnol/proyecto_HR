@@ -96,19 +96,20 @@ navButtons.forEach(boton => {
   boton.addEventListener('click', (e) => {
     e.preventDefault(); 
     const destino = boton.getAttribute('href');
-    mostrarModal();
+    mostrarModal(destino);
   });
-    boton.addEventListener('contextmenu', (e) => {
+  boton.addEventListener('contextmenu', (e) => {
     e.preventDefault(); 
-    mostrarModal();
+    const destino = boton.getAttribute('href');
+    mostrarModal(destino);
   });
 });
 
 function mostrarModal() {
   modal.style.display = 'flex';
   setTimeout(() => {
-    modal.style.display = 'none';
-  }, 2000);
+    window.location.href = destino;
+  }, 1500);
 }
 const menuToggle = document.getElementById('menu-toggle');
 const navegacion = document.getElementById('navegacion');
