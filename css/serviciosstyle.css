@@ -50,6 +50,7 @@ html, body {
      animation: flotar 10s linear infinite;
       pointer-events: none;
         opacity: 0.8;
+        z-index: -1;
 }
 
 main{
