@@ -52,6 +52,10 @@ document.querySelector('.comentarios').appendChild(contenedorComentarios);
 
 let comentarios = JSON.parse(localStorage.getItem('comentarios')) || [];
 
+function mostrarComentarios() {
+  const contenedor = document.getElementById('lista-comentarios');
+  contenedor.innerHTML = '';
+}
 mostrarComentarios();
 
 boton.addEventListener('click', e => {
