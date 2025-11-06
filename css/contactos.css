@@ -214,6 +214,10 @@ outline-offset:6px;
   overflow: hidden;
   z-index: 0; 
 }
+.contacto.cj.visible {
+   opacity: 1;
+    transform: translateY(0); 
+  }
 
 
 .contacto h3 {
