@@ -42,15 +42,15 @@ html, body {
   100% { background-position: 0% 50%; }
 }
 .particula {
-   position: fixed;
-     width: 6px;
+  position: fixed;
+  width: 6px;
   height: 6px;
-   background: radial-gradient(circle, #ffffff, transparent);
-    border-radius: 50%;
-     animation: flotar 10s linear infinite;
-      pointer-events: none;
-        opacity: 0.8;
-        z-index: -1;
+  background: radial-gradient(circle, #ffffff, transparent);
+  border-radius: 50%;
+  animation: flotar 10s linear infinite;
+  pointer-events: none;
+  opacity: 0.8;
+  z-index: -1;
 }
 
 main{
