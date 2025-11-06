@@ -43,6 +43,8 @@ html, body {
 }
 .particula {
    position: fixed;
+     width: 6px;
+  height: 6px;
 }
 
 main{
