@@ -63,3 +63,9 @@ function crearParticulas(contenedor, cantidad) {
 
 crearParticulas(document.body, 100);
 
+const menuToggle = document.getElementById('menu-toggle');
+const navegacion = document.getElementById('navegacion');
+
+menuToggle.addEventListener('click', () => {
+  navegacion.classList.toggle('active');
+});
