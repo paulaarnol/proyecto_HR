@@ -550,9 +550,17 @@ main {
   pointer-events: auto !important;
 }
 #navegacion ul {
-  display: flex;
-  gap: 20px;
-  list-style: none;
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.95);
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 2000;
+  }
 }
 #navegacion a {
   color: white;
