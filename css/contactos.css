@@ -1,3 +1,5 @@
+
+/*modifica todo desde aca*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -160,7 +162,7 @@ outline-offset:6px;
   color: #ffffff;
   border-radius: 5px;
 }
-/*yo ^*/
+/*yo cande*/
 .contacto {
   width: 100vw;
   text-align: center;
@@ -230,6 +232,10 @@ outline-offset:6px;
    display: none; 
    margin-top: 10px; 
   }
+  .contacto.cj.activa .info {
+     display: block; 
+    }
+
 
 
 
