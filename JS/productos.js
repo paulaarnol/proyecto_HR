@@ -55,6 +55,11 @@ let comentarios = JSON.parse(localStorage.getItem('comentarios')) || [];
 function mostrarComentarios() {
   const contenedor = document.getElementById('lista-comentarios');
   contenedor.innerHTML = '';
+
+   if (comentarios.length === 0) {
+    contenedor.innerHTML = '<p>No hay comentarios aún.</p>';
+    return;
+  }
 }
 mostrarComentarios();
 
