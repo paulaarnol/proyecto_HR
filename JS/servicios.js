@@ -29,11 +29,19 @@ boton.addEventListener('contextmenu', (e) => {
   });
 });
 
-
-
 const menuToggle = document.getElementById('menu-toggle');
 const navegacion = document.getElementById('navegacion');
 menuToggle.addEventListener('click', () => {
 navegacion.classList.toggle('active');
 });
+
+const botones = document.querySelectorAll('.boton-le');
+
+botones.forEach(boton => {
+  boton.addEventListener('mouseenter', () => {
+    boton.style.transform = 'scale(1.1)';
+    boton.style.transition = '0.3s';
+    boton.style.boxShadow = '0 0 10px #ffffff';
+  });
+
 
