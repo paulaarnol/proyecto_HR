@@ -34,6 +34,7 @@ html, body {
   overflow-x: hidden;
   background-size: 300% 300%;
    animation: moverFondo 15s ease infinite;
+    position: relative;
 }
 main{
     max-width: var(--max-width);
