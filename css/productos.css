@@ -548,3 +548,7 @@ main {
 #navegacion a:hover {
   color: #b30000; /* bordó */
 }
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* aparece el botón ☰ */
+  }
