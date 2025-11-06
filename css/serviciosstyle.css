@@ -462,3 +462,9 @@ section li { margin-bottom:10px; color:var(--muted); }
   color: white;
   cursor: pointer;
 }
+
+#navegacion ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
