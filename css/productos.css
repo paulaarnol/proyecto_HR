@@ -538,10 +538,16 @@ main {
   display: block;
 }
 .menu-toggle {
-  display: none; 
-  font-size: 30px;
+  display: none;
+  font-size: 32px;
   color: white;
   cursor: pointer;
+  user-select: none;
+  position: absolute;
+  top: 22px;
+  right: 25px;
+  z-index: 9999 !important;
+  pointer-events: auto !important;
 }
 #navegacion ul {
   display: flex;
