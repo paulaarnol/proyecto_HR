@@ -50,6 +50,13 @@ body{
     opacity: 0;
   }
 }
+@media (max-width: 768px) {
+  .particula {
+    width: 3px;
+    height: 3px;
+    opacity: 0.6;
+  }
+}
 header {
     display:flex;
     height: 80px;
