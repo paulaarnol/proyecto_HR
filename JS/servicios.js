@@ -23,11 +23,11 @@ navButtons.forEach(boton => {
     mostrarModal();
   });
 
-
-
-
-
-
+boton.addEventListener('contextmenu', (e) => {
+    e.preventDefault(); 
+    mostrarModal();
+  });
+});
 
 
 const menuToggle = document.getElementById('menu-toggle');
