@@ -360,6 +360,17 @@ section li { margin-bottom:10px; color:var(--muted); }
   align-items: center;
 }
 
+.modal-contenido {
+  background: linear-gradient(135deg, #111, #1e1e1e);
+  color: white;
+  padding: 30px 50px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+  animation: aparecerModal 0.4s ease;
+}
+
+
 
 .animar { transition: transform var(--transition-med) ease-in-out; }
 .animar:hover { transform: translateY(-6px) scale(1.04); }
