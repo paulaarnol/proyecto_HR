@@ -529,3 +529,9 @@ main {
 .logo img {
   display: block;
 }
+.menu-toggle {
+  display: none; /* oculto por defecto */
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
