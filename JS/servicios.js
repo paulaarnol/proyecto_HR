@@ -9,3 +9,5 @@ fab.addEventListener("click", () => {
      const hora = new Date().getHours();
      const mensaje = document.createElement("p");
      if (hora >= 9 && hora < 20) {
+          mensaje.textContent = "🟢 Estamos abiertos de 9:00 a 20:00.";
+}
