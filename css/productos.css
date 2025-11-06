@@ -569,8 +569,4 @@ main {
   #navegacion.active ul {
     display: flex; 
   }
-
-  #navegacion a {
-    padding: 10px;
-  }
 }
