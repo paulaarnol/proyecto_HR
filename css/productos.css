@@ -552,4 +552,14 @@ main {
   .menu-toggle {
     display: block;
   }
+   #navegacion ul {
+    display: none; /* ocultamos el menú normal */
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    border-radius: 10px;
+  }
 }
