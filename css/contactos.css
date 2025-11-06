@@ -239,13 +239,22 @@ outline-offset:6px;
    color: #a00000; text-decoration: none; font-weight: 500; 
   }
 
-
-
-.contacto :hover{
-  transform: scale(1.1);
-  opacity: 0.9;
+.contacto.cj .info a:hover {
+   text-decoration: underline; 
+  }
+.contacto.cj:before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: conic-gradient(from 0deg, #ff0000, #ff9900, #ffff00, #ff0000);
+  z-index: -1;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: bordeGirando 3s linear infinite;
+  opacity: 0.8;
 }
-
 .contacto a:hover {
   text-decoration: underline;
 }
