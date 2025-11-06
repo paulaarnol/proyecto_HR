@@ -530,7 +530,7 @@ main {
   display: block;
 }
 .menu-toggle {
-  display: none; /* oculto por defecto */
+  display: none; 
   font-size: 30px;
   color: white;
   cursor: pointer;
@@ -553,7 +553,7 @@ main {
     display: block;
   }
    #navegacion ul {
-    display: none; /* ocultamos el menú normal */
+    display: none;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.9);
     padding: 10px;
@@ -561,5 +561,12 @@ main {
     top: 80px;
     right: 20px;
     border-radius: 10px;
+  }
+  #navegacion.active ul {
+    display: flex; 
+  }
+
+  #navegacion a {
+    padding: 10px;
   }
 }
