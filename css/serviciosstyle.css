@@ -451,3 +451,14 @@ section li { margin-bottom:10px; color:var(--muted); }
 ::-webkit-scrollbar { width:10px; height:10px; }
 ::-webkit-scrollbar-thumb { background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02)); border-radius:999px; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.02); }
 ::-webkit-scrollbar-track { background: transparent; }
+
+.logo img {
+  display: block;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
