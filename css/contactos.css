@@ -235,8 +235,9 @@ outline-offset:6px;
   .contacto.cj.activa .info {
      display: block; 
     }
-
-
+.contacto.cj .info a {
+   color: #a00000; text-decoration: none; font-weight: 500; 
+  }
 
 
 
