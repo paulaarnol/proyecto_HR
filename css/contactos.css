@@ -227,7 +227,8 @@ outline-offset:6px;
   margin-bottom: 10px; 
 }
 .contacto.cj .info {
- 
+   display: none; 
+   margin-top: 10px; 
   }
 
 
