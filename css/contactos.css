@@ -223,8 +223,12 @@ outline-offset:6px;
   color: #471212;
  }
 .contacto.cj h3 { 
-  
+  color: rgb(126, 126, 126); 
+  margin-bottom: 10px; 
 }
+.contacto.cj .info {
+ 
+  }
 
 
 
