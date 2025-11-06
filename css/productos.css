@@ -325,6 +325,9 @@ main {
     text-align: center;
     padding: 15px 0;
     border-top: 1px solid rgb(235, 15, 15);
+    position: static;
+    bottom: 0;
+    z-index: 10;
 }
 .footer-content h3 {
     font-size: 1.2em;
