@@ -48,6 +48,7 @@ html, body {
    background: radial-gradient(circle, #ffffff, transparent);
     border-radius: 50%;
      animation: flotar 10s linear infinite;
+      pointer-events: none;
 }
 
 main{
