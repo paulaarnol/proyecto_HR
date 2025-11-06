@@ -224,13 +224,8 @@ outline-offset:6px;
   margin-bottom: 15px;
   font-weight: bold;
 }
-.contacto img {
-  display: block;
-  margin: 20px auto;
-  max-width: 80px;
-  transition: 0.3s;
-}
-.contacto img:hover{
+
+.contacto :hover{
   transform: scale(1.1);
   opacity: 0.9;
 }
