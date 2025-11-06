@@ -90,8 +90,22 @@ boton.addEventListener('click', e => {
     mostrarComentarios();
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("Script productos.js cargado");
+const menuToggle = document.getElementById("menu-toggle");
+const navegacion = document.getElementById("navegacion");
+
+if (!menuToggle || !navegacion) {
+  console.error("No se encontraron los elementos del menú");
+  return;
+ }
+
+menuToggle.addEventListener("click", () => {
+  navegacion.classList.toggle("active");
+});
 const modal = document.getElementById("modal-cargando");
 const navButtons = document.querySelectorAll('#navegacion a');
+if (modal && navButtons.length > 0) {
 navButtons.forEach(boton => {
   boton.addEventListener('click', (e) => {
     e.preventDefault(); 
@@ -104,6 +118,7 @@ navButtons.forEach(boton => {
     mostrarModal(destino);
   });
 });
+}
 
 function mostrarModal(destino) {
   modal.style.display = 'flex';
