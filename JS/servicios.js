@@ -30,6 +30,7 @@ boton.addEventListener('contextmenu', (e) => {
 });
 
 
+
 const menuToggle = document.getElementById('menu-toggle');
 const navegacion = document.getElementById('navegacion');
 menuToggle.addEventListener('click', () => {
