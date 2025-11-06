@@ -147,3 +147,11 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   menuToggle.addEventListener("click", toggleMenu);
 });
+ const hora = new Date().getHours();
+     const mensaje = document.createElement("p");
+     if (hora >= 9 && hora < 20) {
+          mensaje.textContent = "🟢 Estamos abiertos de 9:00 a 20:00.";
+}else {
+  mensaje.textContent = "🔴 Cerrado. Nuestro horario es de 9:00 a 20:00.";
+}
+document.querySelector("footer").appendChild(mensaje);
