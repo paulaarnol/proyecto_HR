@@ -468,3 +468,9 @@ section li { margin-bottom:10px; color:var(--muted); }
   gap: 20px;
   list-style: none;
 }
+
+#navegacion a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
