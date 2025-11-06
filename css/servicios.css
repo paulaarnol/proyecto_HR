@@ -245,8 +245,10 @@ section h2 {
     color: #ff0000;
     opacity: 0.8;
 }
-
-
+.copyright {
+    font-size: 0.8em;
+    color: #ff0000;
+}
 
 
 section {
