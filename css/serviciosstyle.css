@@ -36,6 +36,11 @@ html, body {
    animation: moverFondo 15s ease infinite;
     position: relative;
 }
+@keyframes moverFondo {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
 main{
     max-width: var(--max-width);
     margin: 48px auto;
