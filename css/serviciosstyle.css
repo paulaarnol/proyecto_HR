@@ -33,6 +33,7 @@ html, body {
   scroll-behavior: smooth;
   overflow-x: hidden;
   background-size: 300% 300%;
+   animation: moverFondo 15s ease infinite;
 }
 main{
     max-width: var(--max-width);
