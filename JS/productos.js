@@ -60,6 +60,16 @@ function mostrarComentarios() {
     contenedor.innerHTML = '<p>No hay comentarios aún.</p>';
     return;
   }
+    comentarios.forEach(c => {
+    const div = document.createElement('div');
+    div.classList.add('comentario-item');
+    div.innerHTML = `
+      <p><strong>${c.nombre}</strong> (${c.fecha}):</p>
+      <p>${c.mensaje}</p>
+      <hr>
+    `;
+    contenedor.appendChild(div);
+  });
 }
 mostrarComentarios();
 
