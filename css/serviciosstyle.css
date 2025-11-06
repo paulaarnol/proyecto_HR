@@ -46,6 +46,7 @@ html, body {
      width: 6px;
   height: 6px;
    background: radial-gradient(circle, #ffffff, transparent);
+    border-radius: 50%;
 }
 
 main{
