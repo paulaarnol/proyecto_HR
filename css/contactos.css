@@ -242,7 +242,7 @@ outline-offset:6px;
 .contacto.cj .info a:hover {
    text-decoration: underline; 
   }
-.contacto.cj:before {
+.contacto.cj::before {
   content: "";
   position: absolute;
   inset: -2px;
@@ -255,9 +255,16 @@ outline-offset:6px;
   animation: bordeGirando 3s linear infinite;
   opacity: 0.8;
 }
-.contacto a:hover {
-  text-decoration: underline;
+.contacto.cj::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(26, 24, 24, 0.85);
+  border-radius: inherit;
+  z-index: 0;
 }
+@keyframes bordeGirando { from { transform: rotate(0deg); } to { transform: rotate(360deg); } 
+
 /*hasta aca*/
 .mapa iframe {
   display: block;
