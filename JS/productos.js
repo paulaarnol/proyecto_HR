@@ -95,14 +95,11 @@ document.addEventListener("DOMContentLoaded", function () {
 const menuToggle = document.getElementById("menu-toggle");
 const navegacion = document.getElementById("navegacion");
 
-if (!menuToggle || !navegacion) {
-  console.error("No se encontraron los elementos del menú");
-  return;
- }
-
+if (menuToggle && navegacion) {
 menuToggle.addEventListener("click", () => {
   navegacion.classList.toggle("active");
 });
+}
 const modal = document.getElementById("modal-cargando");
 const navButtons = document.querySelectorAll('#navegacion a');
 if (modal && navButtons.length > 0) {
@@ -116,16 +113,19 @@ navButtons.forEach(boton => {
     e.preventDefault(); 
     const destino = boton.getAttribute('href');
     mostrarModal(destino);
-  });
-});
-}
+      });
+    });
+  }
 
 function mostrarModal(destino) {
   modal.style.display = 'flex';
+  console.log("Mostrando modal...");
   setTimeout(() => {
+    console.log("Redirigiendo a:", destino);
     window.location.href = destino;
   }, 1500);
 }
+});
 const menuToggle = document.getElementById('menu-toggle');
 const navegacion = document.getElementById('navegacion');
 
