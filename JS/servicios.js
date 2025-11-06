@@ -61,3 +61,4 @@ function crearParticulas(contenedor, cantidad) {
   }
 }
 
+crearParticulas(document.body, 100);
