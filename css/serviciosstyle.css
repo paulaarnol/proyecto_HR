@@ -53,8 +53,12 @@ html, body {
   z-index: -1;
 }
 @keyframes flotar{
-
+   0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.9;
+  }
   
+
 }
 
 
