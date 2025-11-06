@@ -35,6 +35,8 @@ body {
 .logo img {
     height: 70px; 
     transition: transform 0.4s ease-out;
+    filter 0.4s ease-out;
+    cursor: pointer;
 }
 
 .logo img:hover {
