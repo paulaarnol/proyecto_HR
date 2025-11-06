@@ -29,10 +29,10 @@ boton.addEventListener('contextmenu', (e) => {
   });
 });
 
-const menuToggle = document.getElementById('menu-toggle');
-const navegacion = document.getElementById('navegacion');
-menuToggle.addEventListener('click', () => {
-navegacion.classList.toggle('active');
+const menu = document.getElementById('menu-toggle');
+const nav = document.getElementById('navegacion');
+menu.addEventListener('click', () => {
+nav.classList.toggle('active');
 });
 
 const botones = document.querySelectorAll('.boton-le');
@@ -63,9 +63,9 @@ function crearParticulas(contenedor, cantidad) {
 
 crearParticulas(document.body, 100);
 
-const menuToggle = document.getElementById('menu-toggle');
+const menuToggle = document.getElementById('menu-Toggle');
 const navegacion = document.getElementById('navegacion');
 
-menuToggle.addEventListener('click', () => {
-  navegacion.classList.toggle('active');
+menu.addEventListener('click', () => {
+  nav.classList.toggle('active');
 });
