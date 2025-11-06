@@ -95,6 +95,7 @@ const navButtons = document.querySelectorAll('#navegacion a');
 navButtons.forEach(boton => {
   boton.addEventListener('click', (e) => {
     e.preventDefault(); 
+    const destino = boton.getAttribute('href');
     mostrarModal();
   });
     boton.addEventListener('contextmenu', (e) => {
