@@ -1,5 +1,6 @@
 modal js 
 document.addEventListener("DOMContentLoaded",function() {
+console.log
 
 
 
@@ -11,5 +12,4 @@ document.addEventListener("DOMContentLoaded",function() {
 
 
 
-    
 }
