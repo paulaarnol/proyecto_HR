@@ -78,7 +78,10 @@ border-radius: 6px;
 
 #navegacion a:hover::after,
 #navegacion a.activo::after {transform: scaleX(1); }
+header.scrolled {
 
+    
+}
 
 
 
