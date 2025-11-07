@@ -354,7 +354,7 @@ to {transform: rotate(360deg);}
 }
 
 @keyframes aparecermodal{
+from{ opacity: 0; transform: scale(0.8);}
 
 
-    
 }
