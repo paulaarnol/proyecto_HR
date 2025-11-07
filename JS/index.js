@@ -30,7 +30,7 @@ mostrarmodal(destino);
 }
   function mostrarmodal(desstino){
 modal.style.display='flex';
-
+console.log("redirigiendo a:", desstino);
 
   }
 
