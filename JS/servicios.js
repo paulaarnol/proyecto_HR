@@ -29,37 +29,7 @@ if (hora >= 9 && hora < 20) {
 }
 document.querySelector("footer").appendChild(mensaje);
 
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("Script productos.js cargado");
-const menuToggle = document.getElementById("menu-toggle");
-const navegacion = document.getElementById("navegacion");
 
-if (menuToggle && navegacion) {
-menuToggle.addEventListener("click", () => {
-  navegacion.classList.toggle("active");
-});
-}
-const menuToggle = document.getElementById('menu-toggle');
-const navegacion = document.getElementById('navegacion');
-
-menuToggle.addEventListener('click', () => {
-  navegacion.classList.toggle('active');
-});
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("Script productos.js cargado");
-
-  const menuToggle = document.getElementById("menu-toggle");
-  const navegacion = document.getElementById("navegacion");
-
-  if (!menuToggle || !navegacion) {
-    console.error("No se encontraron los elementos del menú");
-    return;
-  }
-  function toggleMenu() {
-    navegacion.classList.toggle("active");
-  }
-  menuToggle.addEventListener("click", toggleMenu);
-});
 
 
 const botones = document.querySelectorAll('.boton-le');
