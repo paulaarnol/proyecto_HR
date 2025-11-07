@@ -322,5 +322,5 @@ background-color: #000;
 backdrop-filter: blur(4px);
 z-index: 2000;
 justify-content: center;
-
+align-items: center;
 }
