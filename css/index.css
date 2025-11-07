@@ -31,6 +31,7 @@ header{
     justify-content: space-between;
     gap: 30px;
     background: linear-gradient(180deg,  rgba (255,266,266,0.02), rgba256,255,2555,0,01 )
+    backdrop-filter: blur (6px) saturate (1.05);
 
 }
 .top-color-bar{
