@@ -73,3 +73,7 @@ const navButtons = document.querySelectorAll('#navegacion a');
 if (modal && navButtons.length > 0) {
 navButtons.forEach(boton =>{
   boton.addEventListener('click', (e) =>
+    e.preventDefault(); 
+    const destino = boton.getAttribute('href');
+    mostrarModal(destino);
+  });
