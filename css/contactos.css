@@ -270,66 +270,9 @@ outline-offset:6px;
  
 
 
-  /*cambia el color al dar vueltitas*/
- backgrowidth: 100%;
-  background-color: #000; /* fondo negro */
-  color: #fff; /* texto blanco */
-  text-align: center;
-  padding: 20px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 10;}
 
-/*añadi aca tu parte */
-.boton-le {
-  position: relative;
-  display: inline-block;
-  padding: 12px 25px;
-  background: #111;
-  color: white;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  overflow: hidden;
-  cursor: pointer;
-  z-index: 1;
-  transform-style: preserve-3d;
-  perspective: 500px;
-  transition: transform 0.3s ease, color 0.3s, background-color 0.3s;
-}
 
-.boton-le::bund: linear-gradient(270deg, rgb(171, 17, 17), rgb(50, 2, 2), rgb(255, 0, 0)); 
-  background-size: 600% 600%;
-  z-index: -1;
-  animation: brillo 4s linear infinite;
-  filter: blur(2px); 
-}
 
-.boton-le::after {
-   content: "";
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  border-radius: 8px;
-  background: #111;
-  z-index: -1;
-}
-
-@keyframes brillo {
-   0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-.boton-le:hover {
-  color: #860000;
-  transform: translateZ(15px) scale(1.05);
-
-}
 
 
 
