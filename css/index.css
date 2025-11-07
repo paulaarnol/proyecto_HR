@@ -385,6 +385,7 @@ display: block;
 #navegacion ul{
 display: none;
 flex-direction: column;
+gap: 15px;
 
 
 
