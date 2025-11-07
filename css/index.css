@@ -252,7 +252,7 @@ header.scrolled {
 .logo img {
   height: 60px; 
   width: auto; 
-  margin-left: 0; 
+  margin-left:0;
 }
 .menu-toggle {
   display: none;
