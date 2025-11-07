@@ -34,24 +34,20 @@ window.addEventListener('scroll', () => {
     p.style.transform = `translateY(${scrollY * velocidad}px)`;
   });
 });
-
-/*Mi parte*/
+// cande //
 function crearParticulas(contenedor, cantidad) {
   for (let i = 0; i < cantidad; i++) {
     const part = document.createElement("div");
     part.classList.add("particula");
+
     part.style.left = Math.random() * 100 + "%";
     part.style.top = Math.random() * 100 + "%";
-    part.style.animationDuration = 5 + Math.random() * 10 + "s";
-    part.style.animationDelay = Math.random() * 5 + "s";
+    part.style.animationDuration = `${5 + Math.random() * 10}s`;
+    part.style.animationDelay = `${Math.random() * 5}s`;
+
     contenedor.appendChild(part);
   }
 }
 
 crearParticulas(document.body, 100);
-const menuToggle = document.getElementById('menu-toggle');
-  const navegacion = document.getElementById('navegacion');
 
-  menuToggle.addEventListener('click', () => {
-    navegacion.classList.toggle('active');
-  });
