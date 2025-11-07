@@ -21,7 +21,7 @@ boton.addEventListener('click', (e) => {
 mostrarmodal(destino)
 
 }),
-
+BOTON.addEventListener
 
 
 
