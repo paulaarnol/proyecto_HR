@@ -18,7 +18,7 @@ navbuttons.forEach(boton  {
 boton.addEventListener('click', (e) => {
     e.preventDefault();
     const destino = boton.getAttribute ('href');
-
+mostrarmodal(destino)
 
 
 
