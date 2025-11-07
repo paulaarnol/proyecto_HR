@@ -295,3 +295,8 @@ footer {
    font-size: 1.6rem; 
    margin-bottom: 1.5rem; 
   }
+  
+.mapa h2 span { 
+  color: rgb(177, 0, 0);
+   font-weight: 600; 
+  }
