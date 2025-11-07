@@ -31,11 +31,11 @@ body{
   background: linear-gradient(135deg, rgb(6, 6, 6), rgb(35, 35, 35), rgba(22, 22, 22, 0.701));
   background-size: 300% 300%;
   animation: moverFondo 15s ease infinite;
-  z-index: -2; /* debajo de todo */
+  z-index: -2; 
   overflow: hidden;
 }
 .particula {
-  position: fixed; /* cambia absolute por fixed */
+  position: absolute; 
   width: 6px;
   height: 6px;
   background: radial-gradient(circle, #ffffff, transparent);
@@ -43,7 +43,7 @@ body{
   animation: flotar 10s linear infinite;
   pointer-events: none;
   opacity: 0.8;
-  z-index: 0;
+  z-index: -1;
 }
 @keyframes flotar{
   0% {
