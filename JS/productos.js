@@ -43,6 +43,7 @@ function crearParticulas(contenedor, cantidad) {
 }
 crearParticulas(document.body, 100);
 
+
 const correo = document.getElementById('correo');
 const comentario = document.getElementById('comentario');
 const boton = document.getElementById('enviar');
