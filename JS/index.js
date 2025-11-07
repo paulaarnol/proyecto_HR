@@ -57,5 +57,8 @@ menuToggle.addEventListener('click', () => {
 });
 document.addEventListener("DOMContentLoaded", function () {
   console.log("Script productos.js cargado");
-  
+
+  const menuToggle = document.getElementById("menu-toggle");
+  const navegacion = document.getElementById("navegacion");
+
 });
