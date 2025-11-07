@@ -63,12 +63,12 @@ transform: translateY(-2px);}
 #navegacion a:focus{ box-shadow: 0 0 0 4px rgba(255,76,97,0,08);border-radius: 6px;}
 
 #navegacion a::after {
+position:relative
 
 
 
 
 
-    
 }
 
 
