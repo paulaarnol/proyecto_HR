@@ -378,7 +378,12 @@ z-index: 2000;
 justify-content: center;
 align-items: center;
 }
+.modal-contenido {
 
+
+
+  
+}
 
 
 .animar { transition: transform var(--transition-med) ease-in-out; }
