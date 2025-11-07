@@ -21,7 +21,7 @@ boton.addEventListener('click', (e) => {
 mostrarmodal(destino)
 
 }),
-Boton.addEventListener('contextmenu', (e) {
+Boton.addEventListener('contextmenu', (e) => {
 e.preventDefault();
 const destino=boton.getAttribute('href');
 mostrarmodal(destino);
