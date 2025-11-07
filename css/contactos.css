@@ -325,24 +325,23 @@ header.scrolled {
   margin-top: 10px;
 }
 
-.contacto-cj.activa .info {
+.contacto-cj .info {
   display: block;
-  z-index: 10;
-  color: white;
+  margin-top: 10px;
   position: relative;
+  z-index: 10;
 }
 
-.contacto-cj.info a {
+.contacto-cj .info a {
   color: #fff;
-  text-decoration: none;
   font-weight: 700;
+  text-decoration: none;
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.9);
 }
 
-.contacto-cj.info a:hover {
+.contacto-cj .info a:hover {
   color: #ff4d4d;
-  text-shadow: 0 0 10px rgba(255,77,77,1);
-  text-decoration: underline;
+  text-shadow: 0 0 10px rgba(255, 77, 77, 1);
 }
 
 /* Borde giratorio */
