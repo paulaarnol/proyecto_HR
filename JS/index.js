@@ -33,24 +33,4 @@ modal.style.display='flex';
 console.log("mostrando modal...");
 setTimeout(() { 
 console.log("redirigiendo a:", destino);
-
-  }
-
-
-
-
-}
-    
-});
-
-
-
-} 
- 
-)
-
-
-
-
-
-}
+>>
