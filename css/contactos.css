@@ -11,118 +11,85 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, rgb(6,6,6), rgb(35,35,35), rgba(22,22,22,0.7));
+  color: var(--text);
   overflow-x: hidden;
-  background: linear-gradient(135deg, rgb(6, 6, 6), rgb(35, 35, 35), rgba(22, 22, 22, 0.701));
+  min-height: 100vh;
+  position: relative;
   background-size: 300% 300%;
   animation: moverFondo 15s ease infinite;
-  position: relative;
 }
 
+/* Animación fondo */
 @keyframes moverFondo {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
 
-/* Partículas */
+/* ------------------ Partículas ------------------ */
 .particula {
-  position: fixed;
-  width: 6px;
-  height: 6px;
-  background: radial-gradient(circle, #ffffff, transparent);
-  border-radius: 50%;
-  animation: flotar 10s linear infinite;
-  pointer-events: none;
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #ffffff;
   opacity: 0.8;
-  z-index: 0;
+  border-radius: 50%;
+  animation: flotar linear infinite;
 }
 
 @keyframes flotar {
-  0% { transform: translate(0, 0) scale(1); opacity: 0.9; }
-  50% { transform: translate(20px, -50vh) scale(1.1); opacity: 0.6; }
-  100% { transform: translate(-20px, -100vh) scale(0.8); opacity: 0; }
+  from { transform: translateY(0); }
+  to { transform: translateY(-100vh); opacity: 0; }
 }
 
-/* Header */
+/* ------------------ HEADER ------------------ */
 header {
-  display:flex;
-  height: 80px;
-  align-items:center;
-  justify-content:space-between;
-  gap:30px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-  backdrop-filter: blur(6px) saturate(1.05);
-  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(6px);
+  border-bottom: 2px solid var(--accent);
   position: sticky;
-  top: 0px;
-  border-radius: 14px;
+  top: 0;
   z-index: 1100;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
-  transition: transform var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast);
 }
 
-header:hover { transform: translateY(-2px); }
+.logo img {
+  display: block;
+}
 
-.logo img { height: 50px; }
 .menu-toggle {
-  display: none;
+  display: none; /* oculto por defecto */
   font-size: 30px;
   color: white;
   cursor: pointer;
 }
 
 #navegacion ul {
-  list-style:none;
-  display:flex;
-  gap:28px; 
-  align-items:center;
+  display: flex;
+  gap: 20px;
+  list-style: none;
 }
 
 #navegacion a {
-  position:relative;
-  text-decoration:none;
-  color:var(--text);
-  font-weight:600;
-  font-size:15px;
-  padding:6px 4px;
-  transition: color var(--transition-fast), transform var(--transition-fast);
-  outline-offset:6px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
-#navegacion a:focus {
-  box-shadow: 0 0 0 4px rgba(255,76,97,0.08); 
-  border-radius:6px; 
+#navegacion a:hover {
+  color: #b30000;
 }
 
-#navegacion a::after {
-  content:"";
-  position:absolute;
-  height:3px;
-  left:0;
-  right:0;
-  bottom:-6px;
-  background: linear-gradient(90deg, transparent, var(--accent), transparent);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform var(--transition-med) cubic-bezier(.2,.9,.2,1);
-  border-radius: 6px;
-}
-
-#navegacion a:hover::after,
-#navegacion a.activo::after { transform: scaleX(1); }
-
-header.scrolled {
-  padding:8px 22px;
-  box-shadow: 0 12px 36px rgba(0,0,0,0.7);
-  transform: translateY(-4px);
-}
-
-/* Responsive */
+/* ------------------ Vista móvil ------------------ */
 @media (max-width: 768px) {
   .menu-toggle { display: block; }
+
   #navegacion ul {
     display: none;
     flex-direction: column;
@@ -133,10 +100,15 @@ header.scrolled {
     right: 20px;
     border-radius: 10px;
   }
-  #navegacion.active ul { display: flex; }
+
+  #navegacion.active ul {
+    display: flex;
+  }
+
   #navegacion a { padding: 10px; }
 }
-/*yo cande*/
+
+/* ------------------ contacto ------------------ */
 .contacto {
   width: 100vw;
   text-align: center;
@@ -145,23 +117,23 @@ header.scrolled {
   transition: all 0.3s ease;
 }
 
-
-.intro h1 {
-    font-size: 2.5rem;
+.intro {
+  font-size: 2.5rem;
   font-weight: 800;
   color: white;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 6px;
   margin-bottom: 15px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
+
 .subtitulo {
   font-size: 1rem;
   margin-bottom: 40px;
   color: #ccc;
 }
 
+/* ------------------ Tarjetas ------------------ */
 .grid-container {
   display: flex;
   justify-content: center;
@@ -171,6 +143,7 @@ header.scrolled {
   width: 100%;
   padding: 0 5vw;
 }
+
 .contacto-cj {
   position: relative;
   background: rgba(82, 82, 82, 0.7);
@@ -188,35 +161,51 @@ header.scrolled {
   transform: translateY(30px);
   transition: all 0.5s ease;
   overflow: hidden;
-  z-index: 0; 
+  z-index: 0;
 }
-.contacto.cj.visible {
-   opacity: 1;
-    transform: translateY(0); 
-  }
-.contacto.cj:hover i { 
-  transform: scale(1.2); 
-  color: #471212;
- }
-.contacto.cj h3 { 
-  color: rgb(126, 126, 126); 
-  margin-bottom: 10px; 
-}
-.contacto.cj .info {
-   display: none; 
-   margin-top: 10px; 
-  }
-  .contacto.cj.activa .info {
-     display: block; 
-    }
-.contacto.cj .info a {
-   color: #a00000; text-decoration: none; font-weight: 500; 
-  }
 
-.contacto.cj .info a:hover {
-   text-decoration: underline; 
-  }
-.contacto.cj::before {
+.contacto-cj.visible { 
+  opacity: 1; 
+  transform: translateY(0);
+}
+
+.contacto-cj i {
+  font-size: 2.5rem;
+  color: var(--accent);
+  margin-bottom: 10px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.contacto-cj:hover i {
+  transform: scale(1.2);
+  color: #471212;
+}
+
+.contacto-cj h3 {
+  color: rgb(126, 126, 126);
+  margin-bottom: 10px;
+}
+
+.contacto-cj .info {
+  display: none;
+  margin-top: 10px;
+}
+
+.contacto-cj.activa .info {
+  display: block;
+}
+
+.contacto-cj.info a {
+  color: #a00000;
+  text-decoration: none;
+  font-weight: 500;
+}
+.contacto-cj.info a:hover {
+  text-decoration: underline;
+}
+
+/* Borde giratorio */
+.contacto-cj::before {
   content: "";
   position: absolute;
   inset: -2px;
@@ -229,7 +218,7 @@ header.scrolled {
   animation: bordeGirando 3s linear infinite;
   opacity: 0.8;
 }
-.contacto.cj::after {
+.contacto-cj::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -237,20 +226,24 @@ header.scrolled {
   border-radius: inherit;
   z-index: 0;
 }
-@keyframes bordeGirando { from {
-  transform: rotate(0deg); } 
-  to { transform: rotate(360deg); 
-  } 
-  }
- 
-  .contacto.cj:hover::before { 
-  animation-duration: 1.8s; 
+
+@keyframes bordeGirando {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.contacto-cj:hover::before {
+  animation-duration: 1.8s;
   opacity: 1;
-   filter: brightness(1.4); }
-.contacto.cj:hover {
-   transform: translateY(-6px) scale(1.035);
-    box-shadow: 0 10px 40px rgba(122, 0, 0, 0.45);
-   }
+  filter: brightness(1.4);
+}
+
+.contacto-cj:hover {
+  transform: translateY(-6px) scale(1.035);
+  box-shadow: 0 10px 40px rgba(122, 0, 0, 0.45);
+}
+
+/* ------------------ Footer ------------------ */
 footer {
   margin-top: 80px;
   text-align: center;
@@ -259,21 +252,24 @@ footer {
   font-size: 0.9rem;
   color: #ccc;
 }
+
+/* ------------------ Mapas ------------------ */
 .mapa {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
-.mapa h2 { 
+
+.mapa h2 {
   color: #ffffff;
-   font-size: 1.6rem; 
-   margin-bottom: 1.5rem; 
-  }
-  
-.mapa h2 span { 
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.mapa h2 span {
   color: rgb(177, 0, 0);
-   font-weight: 600; 
-  }
+  font-weight: 600;
+}
 
 .mapa iframe {
   border-radius: 0px;
@@ -283,79 +279,52 @@ footer {
   height: 450px;
 }
 
-.modal-cargando {
-  display: none; /* Oculto por defecto */
+/* ------------------ Modal ------------------ */
+.modal-cargando, .modal {
+  display: none;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(10, 10, 10, 0.7);
-  backdrop-filter: blur(4px);
-  z-index: 2000;
+  inset: 0;
   justify-content: center;
   align-items: center;
+  z-index: 2000;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(4px);
 }
+
+.modal.activo {
+  display: flex;
+  opacity: 1;
+  pointer-events: all;
+}
+
 .modal-contenido {
-  background: linear-gradient(135deg, #111, #1e1e1e);
-  color: white;
-  padding: 30px 50px;
-  border-radius: 12px;
+  background: rgba(20,20,20,0.95);
+  border: 2px solid #7a0000;
+  border-radius: 15px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 450px;
+  color: #eaeaea;
   text-align: center;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
-  animation: aparecerModal 0.4s ease;
-}
-.loader {
-  border: 5px solid rgba(255, 255, 255, 0.2);
-  border-top: 5px solid #ff0000;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin: 0 auto 15px;
-  animation: girar 1s linear infinite;
-}
-@keyframes girar {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  box-shadow: 0 0 25px rgba(122,0,0,0.6);
 }
 
-@keyframes aparecerModal {
-  from { opacity: 0; transform: scale(0.8); }
-  to { opacity: 1; transform: scale(1); }
+.modal-contenido h2 {
+  color: #ff3333;
+  margin-bottom: 1rem;
 }
-.logo img {
-  display: block;
-}
-.menu-toggle {
-  display: none;
-  font-size: 32px;
-  color: white;
+
+.modal-contenido button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: #7a0000;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
   cursor: pointer;
-  user-select: none;
-  position: absolute;
-  top: 22px;
-  right: 25px;
-  z-index: 9999 !important;
-  pointer-events: auto !important;
+  transition: background 0.3s ease;
 }
 
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-   #navegacion ul {
-    display: none;
-    flex-direction: column;
-    gap: 15px;
-    position: absolute;
-    top: 80px;
-    right: 20px;
-    background: rgba(0, 0, 0, 0.95);
-    padding: 15px;
-    border-radius: 10px;
-    z-index: 2000;
-  }
-  #navegacion.active ul {
-    display: flex; 
-  }
+.modal-contenido button:hover {
+  background: #a50000;
 }

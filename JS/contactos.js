@@ -1,6 +1,6 @@
 // Animación de tarjetas
 document.addEventListener("DOMContentLoaded", () => {
-  const tarjetas = document.querySelectorAll(".contacto-cj"); 
+  const tarjetas = document.querySelectorAll(".contacto.cj"); // <-- CORREGIDO
 
   // Aparecen una por una
   tarjetas.forEach((tarjeta, index) => {
@@ -12,8 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
     tarjeta.addEventListener("click", () => tarjeta.classList.toggle("activa"));
   });
 });
+
+//montw
 // Efecto  botones
-constbotones = document.querySelectorAll('.btn');
+const botones = document.querySelectorAll('.btn');
 
 botones.forEach(boton => {
   boton.addEventListener('mouseenter', () => {
@@ -28,20 +30,8 @@ botones.forEach(boton => {
     boton.style.boxShadow = 'none';
   });
 });
-const botones = document.querySelectorAll('.boton-le');
-
-botones.forEach(boton => {
-  boton.addEventListener('mouseenter', () => {
-    boton.style.transform = 'scale(1.1)';
-    boton.style.transition = '0.3s';
-    boton.style.boxShadow = '0 0 10px #ffffff';
-  });
-  boton.addEventListener('mouseleave', () => {
-    boton.style.transform = 'scale(1)';
-    boton.style.boxShadow = 'none';
-  });
-});
-
+//cande
+// Modal de bienvenida
 window.addEventListener('load', () => {
   const modal = document.getElementById('mensaje-bienvenida');
   const cerrar = document.getElementById('cerrar-modal');
@@ -54,7 +44,7 @@ window.addEventListener('load', () => {
     });
   }
 });
-
+//monte
 // Menú tres lineas 
 const menuToggle = document.getElementById('menu-toggle');
 const navegacion = document.getElementById('navegacion');
@@ -65,6 +55,7 @@ if (menuToggle && navegacion) {
   });
 }
 
+//cande//
 window.addEventListener('scroll', () => {
   const scrollY = window.scrollY;
   document.querySelectorAll('.particula').forEach(p => {
@@ -72,81 +63,19 @@ window.addEventListener('scroll', () => {
     p.style.transform = `translateY(${scrollY * velocidad}px)`;
   });
 });
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("Script productos.js cargado");
-const menuToggle = document.getElementById("menu-toggle");
-const navegacion = document.getElementById("navegacion");
 
-if (menuToggle && navegacion) {
-menuToggle.addEventListener("click", () => {
-  navegacion.classList.toggle("active");
-});
-}
-const modal = document.getElementById("modal-cargando");
-const navButtons = document.querySelectorAll('#navegacion a');
-if (modal && navButtons.length > 0) {
-navButtons.forEach(boton => {
-  boton.addEventListener('click', (e) => {
-    e.preventDefault(); 
-    const destino = boton.getAttribute('href');
-    mostrarModal(destino);
-  });
-  boton.addEventListener('contextmenu', (e) => {
-    e.preventDefault(); 
-    const destino = boton.getAttribute('href');
-    mostrarModal(destino);
-      });
-    });
-  }
-
-function mostrarModal(destino) {
-  modal.style.display = 'flex';
-  console.log("Mostrando modal...");
-  setTimeout(() => {
-    console.log("Redirigiendo a:", destino);
-    window.location.href = destino;
-  }, 1500);
-}
-});
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("Script contactos.js cargado correctamente ✅");
-
-  const menuToggle = document.getElementById("menu-toggle");
-  const navegacion = document.getElementById("navegacion");
-
-  if (!menuToggle || !navegacion) {
-    console.error("No se encontraron los elementos del menú en el DOM");
-    return;
-  }
-
-  function toggleMenu() {
-    navegacion.classList.toggle("active");
-  }
-
-  menuToggle.addEventListener("click", toggleMenu);
-
-  const links = navegacion.querySelectorAll("a");
-  links.forEach(link => {
-    link.addEventListener("click", () => {
-      navegacion.classList.remove("active");
-    });
-  });
-});
-
-
+//cande//
+// Crear partículas dinámicamente
 function crearParticulas(contenedor, cantidad) {
   for (let i = 0; i < cantidad; i++) {
     const part = document.createElement("div");
     part.classList.add("particula");
-
     part.style.left = Math.random() * 100 + "%";
     part.style.top = Math.random() * 100 + "%";
-    part.style.animationDuration = `${5 + Math.random() * 10}s`;
-    part.style.animationDelay = `${Math.random() * 5}s`;
-
+    part.style.animationDuration = 5 + Math.random() * 10 + "s";
+    part.style.animationDelay = Math.random() * 5 + "s";
     contenedor.appendChild(part);
   }
 }
 
 crearParticulas(document.body, 100);
-

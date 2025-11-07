@@ -1,110 +1,104 @@
 <!DOCTYPE html>
-<html lang="es-arg">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="css/contactos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - HR Turbos</title>
+  <link rel="stylesheet" href="css/contactos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header>
-    <div class="logo"> 
-      <img src="galeria/logo.png" alt="HR Turbos" height="80" width="100"> 
-    </div> 
+    <div class="logo">
+      <img src="galeria/logo.png" alt="HR Turbos" height="80" width="100">
+    </div>
+
     <div class="menu-toggle" id="menu-toggle">☰</div>
-    
     <nav id="navegacion">
       <ul>
-        <li><a href="index.html" class="btn">Inicio</a></li>
-        <li><a href="servicios.html" class="btn">Servicios</a></li> 
-        <li><a href="productos.html" class="btn">Productos</a></li> 
-      </ul> 
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="productos.html" class="activo">Productos</a></li>
+       
+      </ul>
     </nav>
   </header>
 
   <main class="contacto">
-    <h1 class="intro">CONTÁCTANOS</h1> 
-    <p class="subtitulo">¿Necesitás algún arreglo o mejora en tu vehículo? Contactate con nosotros a través de estos medios.</p> 
+    <h1 class="intro">CONTÁCTANOS</h1>
+    <p class="subtitulo">¿Necesitás algún arreglo o mejora en tu vehículo? Contactate con nosotros a través de estos medios.</p>
 
-   
-    <section class="grid-container">
-      <div class = contacto.cj>
-      <i class="fab fa-whatsapp"></i>
-      <h3>WhatsApp</h3>
-      <div class="info">
-<a href="https://wa.me/5499112345678?text=Hola!%20Gracias%20por%20comunicarte%20con%20HR%20Turbos%20y%20Servicios.%0A%C2%BFEn%20qu%C3%A9%20podemos%20ayudarte?%0ADeja%20tu%20consulta%20y%20el%20equipo%20de%20HR%20Turbos%20te%20responder%C3%A1%20a%20la%20brevedad.%0AMuchas%20gracias>
-  +54 9 11 1234-5678
-</a>
-
-
+    <div class="grid container">
+      <div class="contacto-cj">
+        <i class="fab fa-whatsapp"></i>
+        <h3>WhatsApp</h3>
+        <div class="info">
+          <a href="https://wa.me/5499112345678" target="_blank">+54 9 11 1234-5678</a>
+        </div>
       </div>
+
+     
+     
+    <div class="grid container">
+      <div class="contacto-cj">
+        <i class="fas fa-envelope"></i>
+        <h3>Correo</h3>
+        <div class="info">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=raularnol@yahoo.com&su=Consulta%20sobre%20servicios&body=Hola,%20en%20que%20te%20podemos%20asesorar%20.%20" 
+          target="_blank" 
+          rel="noopener noreferrer">
+          raularnol@yahoo.com
+       </a>
+       
+          
+        </div>
       </div>
+
+     
+    <div class="grid container">
+      <div class="contacto-cj">
+        <i class="fas fa-phone"></i>
+        <h3>Teléfono</h3>
+        <div class="info">
+          <a href="tel:+541143218765">+54 11 4321-8765</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="mapa">
+      <h2>Nos encontramos en <span>Neuquén</span>, visítanos acá:</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.205910506342!2d-68.0693406!3d-38.964966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a3382c83e4627%3A0x52606904c8318d19!2sHR%20turbos%20y%20servicios!5e0!3m2!1sen!2sar!4v1762401256528!5m2!1sen!2sar" width="2000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </iframe>
     </section>
+    
 
 
-    <section class="grid-container">
-      <div class = contacto.cj>
-      <i class="fas fa-envelope"></i>
-      <h3>Correo</h3>
-      <div class="info">
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=raularnol@yahoo.com&su=Consulta%20sobre%20servicios&body=Hola,%20en%20que%20te%20podemos%20asesorar%20." 
-        target="_blank" rel="noopener noreferrer">
-        raularnol@yahoo.com
-        </a>
-      </div>
-      </div>
-    </section>
-   <section class="grid-container">
-    <div class = contacto.cj>
-    <i class="fab fa-phone"></i>
-    <h3>Teléfono</h3>
-    <div class="info">
-      <a href="tel:+541143218765">+54 11 4321-8765</a>
+  <!-- Modal de carga -->
+  <div id="modal-cargando" class="modal-cargando">
+    <div class="modal-contenido">
+      <div class="loader"></div>
+      <p>Cargando...</p>
     </div>
-    </div>
-  </section>
+  </div>
+<!-- Modal de bienvenida -->
+<div id="mensaje-bienvenida" class="modal">
+  <div class="modal-contenido">
+    <h2>¡Hola! </h2>
+    <p>contactate  con <strong>HR TURBO</strong>.</p>
+    <p>Nuestros horarios son</p>
+    <p><strong>Lunes a Viernes </strong></p>
+          <p> 9:00 Hs A 18:00 Hs</p>
+    <p>¡Gracias por confiar en nosotros! </p>
+    <button id="cerrar-modal">Continuar</button>
+  </div>
+</div>
 
-   <h2>Nos encontramos en <span>Neuquén</span> , visitanos</h2>
-    <section class="mapa">
-        <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.205910506342!2d-68.0693406!3d-38.964966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a3382c83e4627%3A0x52606904c8318d19!2sHR%20turbos%20y%20servicios!5e0!3m2!1sen!2sar!4v1756604401136!5m2!1sen!2sar" width="2000" height="450" style="border:0;" 
-        allowfullscreen=" " loading="lazy"  referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-      
-    </section> 
-        <div id="modal-cargando" class="modal-cargando">
-      <div class="modal-contenido">
-        <div class="loader"></div>
-        <p>Cargando...</p>
-      </div>
-    </div>
-
-    <div id="mensaje-bienvenida" class="modal">
-      <div class="modal-contenido">
-        <h2>¡Hola!</h2>
-        <p>contactate con <strong>HR TURBO</strong>.</p>
-        <p>Nuestros horarios son</p>
-        <p><strong>Lunes a Viernes </strong></p>
-        <p>9:00 Hs A 18:00 Hs</p>
-        <p>¡Gracias por confiar en nosotros!</p>
-        <button id="cerrar-modal">Continuar</button>
-      </div>
-    </div>
-
-    <footer class="main-footer">
-    <div class="footer-content">
-      <h3>CONTACTOS:</h3>
-      <p>
-        <a href="mailto:raularnol@yahoo.com">Gmail</a> |
-        <a href="tel:+5492995308980">Teléfono</a>
-      </p>
-    </div>
-    <p class="copyright">&copy; 2025 HR Turbos. Todos los derechos reservados.</p>
+  <footer>
+    <p>© 2025 HR Turbos - Todos los derechos reservados</p>
   </footer>
 
-
-
-    <script src="JS/contactos.js"></script>
+  <script src="JS/contactos.js"></script>
+  
 </body>
 </html>
