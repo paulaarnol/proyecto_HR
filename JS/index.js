@@ -61,4 +61,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const menuToggle = document.getElementById("menu-toggle");
   const navegacion = document.getElementById("navegacion");
 
+  if (!menuToggle || !navegacion) {
+  console.error("No se encontraron los elementos del menú");
+  return;
+  }
 });
