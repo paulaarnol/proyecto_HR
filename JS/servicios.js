@@ -91,3 +91,6 @@ navButtons.forEach(boton =>{
     console.log("Redirigiendo a:", destino);
     window.location.href = destino;
   }, 1500);
+}
+
+
