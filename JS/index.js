@@ -31,7 +31,7 @@ mostrarmodal(destino);
   function mostrarmodal(destino){
 modal.style.display='flex';
 console.log("mostrando modal...");
-setTimeout(() { 
+setTimeout(() => { 
 console.log("redirigiendo a:", destino);
 window.location.href =destino;
  }, 1500);
