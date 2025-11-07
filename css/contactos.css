@@ -281,28 +281,4 @@ outline-offset:6px;
 
 
 
-/*Mi parte*/
-.resaltar {
-  transition: transform 0.3s ease;
-}
-.resaltar:hover {
-  transform: scale(1.15) rotate(-2deg);
-}
 
-.mostrar {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-.mostrar.visible {
-  opacity: 1;
-}
-
-.animar {
-  transition: background-color 0.4s ease, transform 0.4s ease;
-}
-
-.animar:hover {
-  background-color: var(--brand);
-  transform: translateY(-4px);
-}
