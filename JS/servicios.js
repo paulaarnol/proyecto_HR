@@ -71,4 +71,5 @@ menu.addEventListener('click', () => {
 const modal = document.getElementById("modal-cargando");
 const navButtons = document.querySelectorAll('#navegacion a');
 if (modal && navButtons.length > 0) {
-navButtons.forEach(boton =>
+navButtons.forEach(boton =>{
+  boton.addEventListener('click', (e) =>
