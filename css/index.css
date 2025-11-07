@@ -98,9 +98,10 @@ align-items: center;
 }
 
 .overlay {
+position: absolute;
 
 
-    
+
 }
 
 .top-color-bar{
