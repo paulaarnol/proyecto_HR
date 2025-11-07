@@ -14,8 +14,7 @@ fab.addEventListener("click", () => {
   mensaje.textContent = "🔴 Cerrado. Nuestro horario es de 9:00 a 20:00.";
 }
 document.querySelector("footer").appendChild(mensaje);
-const modal = document.getElementById("modal-cargando");
-const navButtons = document.querySelectorAll('#navegacion a');
+
 
 navButtons.forEach(boton => {
   boton.addEventListener('click', (e) => {
@@ -69,3 +68,5 @@ const navegacion = document.getElementById('navegacion');
 menu.addEventListener('click', () => {
   nav.classList.toggle('active');
 });
+const modal = document.getElementById("modal-cargando");
+const navButtons = document.querySelectorAll('#navegacion a');
