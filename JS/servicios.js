@@ -18,8 +18,6 @@ window.addEventListener("scroll", () => {
 });
 
 
-
-
 const hora = new Date().getHours();
 const mensaje = document.createElement("p");
 if (hora >= 9 && hora < 20) {
@@ -28,8 +26,6 @@ if (hora >= 9 && hora < 20) {
   mensaje.textContent = "🔴 Cerrado. Nuestro horario es de 9:00 a 20:00.";
 }
 document.querySelector("footer").appendChild(mensaje);
-
-
 
 
 const botones = document.querySelectorAll('.boton-le');
