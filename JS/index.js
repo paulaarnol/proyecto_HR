@@ -14,12 +14,18 @@ navegacion.classlist.toggle("active");
 const modal= document.getElementById("modal-cargando"); 
 const navbuttons - document.querySelectorAll('#navegacion a');
 if(modal && navbuttons.length > 0) {
-navbuttons.forEach(boton => {
+navbuttons.forEach(boton  {
+boton.addEventListener('click', (e) => {
 
 
 
 
     
+}
+
+
+
+
 }
     
 });
