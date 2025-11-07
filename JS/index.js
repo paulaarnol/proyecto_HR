@@ -5,9 +5,11 @@ const menutoggle= document.getElementById("menu-toggle");
 const navegacion - document.getElementById("navegacion");
 
 if (menutoggle && navegacion){
-menutoggle.addEventListener
+menutoggle.addEventListener("click", () {
+navegacion.classlist.toggle
 
 
+}
 }
 
 
