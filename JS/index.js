@@ -34,3 +34,6 @@ console.log("mostrando modal...");
 setTimeout(() { 
 console.log("redirigiendo a:", destino);
 window.location.href =destino;
+ }, 1500);
+}
+});
