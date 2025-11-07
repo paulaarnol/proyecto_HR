@@ -42,7 +42,6 @@ botones.forEach(boton => {
   });
 });
 
-//cande
 window.addEventListener('load', () => {
   const modal = document.getElementById('mensaje-bienvenida');
   const cerrar = document.getElementById('cerrar-modal');
@@ -55,7 +54,7 @@ window.addEventListener('load', () => {
     });
   }
 });
-//monte
+
 // Menú tres lineas 
 const menuToggle = document.getElementById('menu-toggle');
 const navegacion = document.getElementById('navegacion');
@@ -66,7 +65,6 @@ if (menuToggle && navegacion) {
   });
 }
 
-// cande //
 window.addEventListener('scroll', () => {
   const scrollY = window.scrollY;
   document.querySelectorAll('.particula').forEach(p => {
@@ -74,7 +72,7 @@ window.addEventListener('scroll', () => {
     p.style.transform = `translateY(${scrollY * velocidad}px)`;
   });
 });
-// cande //
+
 function crearParticulas(contenedor, cantidad) {
   for (let i = 0; i < cantidad; i++) {
     const part = document.createElement("div");
