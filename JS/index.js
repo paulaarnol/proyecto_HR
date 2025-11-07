@@ -9,7 +9,7 @@ menutoggle.addEventListener("click", () {
 navegacion.classlist.toggle("active");
 
 
-}
+})
 }
 
 
