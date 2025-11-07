@@ -76,6 +76,8 @@ transition: transform var(--transition-med)cubic-bezier(.2,.9,.2,1);
 border-radius: 6px;
 }
 
+#navegacion a:hover::after,
+
 
 
 
