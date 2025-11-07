@@ -81,7 +81,7 @@ border-radius: 6px;
 header.scrolled {
 padding: 8px 22px;
 box-shadow: 0 12px 36px black;
-
+transform: translateY(-4px);
 }
 
 
