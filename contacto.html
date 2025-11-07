@@ -1,34 +1,23 @@
-<!DOCTYPE html>
+HTML: <!DOCTYPE html>
 <html lang="es-arg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="css/contactos.css">
+    <!-- link para los iconitos de las tarjetas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-            <div class="logo">
-                <img src="galeria/logo.png" alt="HR Turbos" height="80" width="100">
-            </div>
-            <div class="menu-toggle" id="menu-toggle">☰</div>
-            <nav id="navegacion">
-                <ul id="lista">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="productos.html"  class="activo">Productos</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
-   <-- de aca -->
   <header>
     <div class="logo"> 
       <img src="galeria/logo.png" alt="HR Turbos" height="80" width="100"> 
     </div> 
+    <!-- Icono de lineas = -->
     <div class="menu-toggle" id="menu-toggle">☰</div>
+    
     <nav id="navegacion">
-      <ul id="lista">
+      <ul>
         <li><a href="index.html" class="btn">Inicio</a></li>
         <li><a href="servicios.html" class="btn">Servicios</a></li> 
         <li><a href="productos.html" class="btn">Productos</a></li> 
@@ -37,20 +26,10 @@
   </header>
 
   <main class="contacto">
-    <section class="intro">
-    <h1>CONTÁCTANOS</h1> 
-     <p class="subtitulo">¿Necesitás algún arreglo o mejora en tu vehículo? Contactate con nosotros a través de estos medios.</p> 
-    </section>
-    <section class="grid-container">
-        <div class="contacto.cj">
-          <h3>WhatsApp</h3>
-          <div class="info">
-            <a href="https://wa.me/5499112345678?text=Hola!%20Gracias%20por%20comunicarte%20con%20HR%20Turbos%20y%20Servicios.%0A%C2%BFEn%20qu%C3%A9%20podemos
-            %20ayudarte?%0ADeja%20tu%20consulta%20y%20el%20equipo%20de%20HR%20Turbos%20te%20responder%C3%A1%20a%20la%20brevedad.%0AMuchas%20
-            gracias>+54 9 11 1234-5678</a>
-      </div>
-      </div>
-    </section>
+    <h1 class="intro">CONTÁCTANOS</h1> 
+    <p class="subtitulo">¿Necesitás algún arreglo o mejora en tu vehículo? Contactate con nosotros a través de estos medios.</p> 
+
+    <!-- WhatsApp -->
     <section class="grid-container">
       <div class = contacto.cj>
       <i class="fab fa-whatsapp"></i>
@@ -59,10 +38,27 @@
 <a href="https://wa.me/5499112345678?text=Hola!%20Gracias%20por%20comunicarte%20con%20HR%20Turbos%20y%20Servicios.%0A%C2%BFEn%20qu%C3%A9%20podemos%20ayudarte?%0ADeja%20tu%20consulta%20y%20el%20equipo%20de%20HR%20Turbos%20te%20responder%C3%A1%20a%20la%20brevedad.%0AMuchas%20gracias>
   +54 9 11 1234-5678
 </a>
+
+
       </div>
       </div>
     </section>
-     <section class="grid-container">
+
+    <!-- Correo -->
+    <section class="grid-container">
+      <div class = contacto.cj>
+      <i class="fas fa-envelope"></i>
+      <h3>Correo</h3>
+      <div class="info">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=raularnol@yahoo.com&su=Consulta%20sobre%20servicios&body=Hola,%20en%20que%20te%20podemos%20asesorar%20." 
+        target="_blank" rel="noopener noreferrer">
+        raularnol@yahoo.com
+        </a>
+      </div>
+      </div>
+    </section>
+   <!-- Teléfonos -->
+   <section class="grid-container">
     <div class = contacto.cj>
     <i class="fab fa-phone"></i>
     <h3>Teléfono</h3>
@@ -71,24 +67,6 @@
     </div>
     </div>
   </section>
-  <h3>Visítanos</h3>
-            <img src="galeria/ubi-removebg-preview.png" alt="Ubicación" width="90" height="90">
-                <a href="Int. Nordenstrom 925" button class="boton-le animar">Int. Nordenstrom 925</a>
-        </div>
-        <div class="contacto resaltar">
-         <h3>Llámanos</h3>
-            <img src="galeria/telefono-removebg-preview.png" alt="telefono" width="90" height="90">
-              <a href="+54  0299 15-530-8980"  button class="boton-le animar">0299 15-530-8980</a>
-                
-        </div>  
-        <div class="contacto resaltar">
-         <h3>Escríbenos</h3>
-            <img src="galeria/logo_email-removebg-preview.png" alt="Correo" width="90" height="90">  
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=raularnol@yahoo.com&su=Consulta%20HR%20Turbos&body=Hola,%20quiero%20consultar%20sobre%20sus%20servicios."  target="_blank"  class="boton-le animar">raularnol@yahoo.com</a>     
-        </div>
-    </section>
-  </main>
-  <--hasta aca es todo nuevo-->
   <-- aca aranco yo-->
    <h2>Nos encontramos en <span>Neuquén</span> , visitanos</h2>
     <section class="mapa">
