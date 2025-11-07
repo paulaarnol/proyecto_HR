@@ -361,6 +361,6 @@ to { opacity: 1; transform: scale(1);}
 
 
 .logo img{
+display: block;
 
-    
 }
