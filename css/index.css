@@ -369,5 +369,7 @@ display: block;
 display: none;
 font-size: 32px;
 color: white;
+cursor: pointer;
+
 
 }
