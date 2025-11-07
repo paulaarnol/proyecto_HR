@@ -16,11 +16,12 @@ const navbuttons - document.querySelectorAll('#navegacion a');
 if(modal && navbuttons.length > 0) {
 navbuttons.forEach(boton  {
 boton.addEventListener('click', (e) => {
+    e.preventDefault();
 
 
 
 
-    
+
 }
 
 
