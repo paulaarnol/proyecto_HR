@@ -267,23 +267,11 @@ outline-offset:6px;
   transform: rotate(0deg); } 
   to { transform: rotate(360deg); 
   } 
-.contacto.cj:hover::before { 
-  animation-duration: 1.8s; opacity: 1;
-   filter: brightness(1.4);
-   }
-.contacto.cj:hover { 
-  transform: translateY(-6px) scale(1.035); box-shadow: 0 10px 40px rgba(122, 0, 0, 0.45); }
-/*hasta aca*/
-.mapa iframe {
-  display: block;
-  width: 100%;
-  height: 400px;
-  border: none;
-  width: 100%;
-  margin-top: 20px;
-}
-.main-footer {
-  width: 100%;
+ 
+
+
+  /*cambia el color al dar vueltitas*/
+ backgrowidth: 100%;
   background-color: #000; /* fondo negro */
   color: #fff; /* texto blanco */
   text-align: center;
@@ -312,16 +300,7 @@ outline-offset:6px;
   transition: transform 0.3s ease, color 0.3s, background-color 0.3s;
 }
 
-.boton-le::before {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  border-radius: 12px;
-  /*cambia el color al dar vueltitas*/
- background: linear-gradient(270deg, rgb(171, 17, 17), rgb(50, 2, 2), rgb(255, 0, 0)); 
+.boton-le::bund: linear-gradient(270deg, rgb(171, 17, 17), rgb(50, 2, 2), rgb(255, 0, 0)); 
   background-size: 600% 600%;
   z-index: -1;
   animation: brillo 4s linear infinite;
