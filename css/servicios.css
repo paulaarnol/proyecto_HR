@@ -387,6 +387,9 @@ text-align: center;
 box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
 animation: aparecerModal 0.4s ease;
 }
+.loader { 
+  
+}
 
 
 .animar { transition: transform var(--transition-med) ease-in-out; }
