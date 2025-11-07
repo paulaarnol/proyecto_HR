@@ -87,3 +87,7 @@ navButtons.forEach(boton =>{
   function mostrarModal(destino) {
     modal.style.display = 'flex';
     console.log("Mostrando modal...");
+      setTimeout(() => {
+    console.log("Redirigiendo a:", destino);
+    window.location.href = destino;
+  }, 1500);
