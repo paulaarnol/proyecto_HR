@@ -312,7 +312,7 @@ header.scrolled {
 
 .contacto-cj:hover i {
   transform: scale(1.2);
-  color: #471212;
+  color: #b20b0b;
 }
 
 .contacto-cj h3 {
@@ -325,7 +325,7 @@ header.scrolled {
   margin-top: 10px;
 }
 
-.contacto-cj .info {
+.contacto-cj.activo .info {
   display: block;
   margin-top: 10px;
   position: relative;
