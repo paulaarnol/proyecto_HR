@@ -7,7 +7,7 @@
 }
 document.querySelector("footer").appendChild(mensaje);
 
-MODAL *js*
+
 document.addEventListener("DOMContentLoaded", function () {
   console.log("Script productos.js cargado");
 const menuToggle = document.getElementById("menu-toggle");
@@ -31,6 +31,11 @@ navButtons.forEach(boton => {
     e.preventDefault(); 
     const destino = boton.getAttribute('href');
     mostrarModal(destino);
+      });
+  boton.addEventListener('contextmenu', (e) => {
+  e.preventDefault(); 
+  const destino = boton.getAttribute('href');
+  mostrarModal(destino);
       });
     });
   }
