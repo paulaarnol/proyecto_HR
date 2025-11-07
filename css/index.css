@@ -314,7 +314,7 @@ z-index: 1;
 .modal-cargando {
 display: none;
 position: fixed;
-
+top: 0;
 
 
 
