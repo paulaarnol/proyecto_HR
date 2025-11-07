@@ -55,6 +55,7 @@ transform: translateY(-2px);}
 
     position: relative;
     text-decoration: none;
+    color:var(--text)
 }
 
 
