@@ -1,4 +1,33 @@
-/*aca tu parte*/
+// Animación de tarjetas
+document.addEventListener("DOMContentLoaded", () => {
+  const tarjetas = document.querySelectorAll(".contacto-cj"); 
+
+  // Aparecen una por una
+  tarjetas.forEach((tarjeta, index) => {
+    setTimeout(() => tarjeta.classList.add("visible"), index * 400);
+  });
+
+  // Mostrar/ocultar info 
+  tarjetas.forEach(tarjeta => {
+    tarjeta.addEventListener("click", () => tarjeta.classList.toggle("activa"));
+  });
+});
+// Efecto  botones
+const botones = document.querySelectorAll('.btn');
+
+botones.forEach(boton => {
+  boton.addEventListener('mouseenter', () => {
+    boton.style.transform = 'scale(1.1)';
+    boton.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease';
+    boton.style.color = '#ff3333';
+    boton.style.boxShadow = '0 0 18px rgba(255, 0, 0, 0.6)';
+  });
+  boton.addEventListener('mouseleave', () => {
+    boton.style.transform = 'scale(1)';
+    boton.style.color = '';
+    boton.style.boxShadow = 'none';
+  });
+});
 const botones = document.querySelectorAll('.boton-le');
 
 botones.forEach(boton => {
