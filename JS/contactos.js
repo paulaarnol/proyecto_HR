@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 // Efecto  botones
-const botones = document.querySelectorAll('.btn');
+constbotones = document.querySelectorAll('.btn');
 
 botones.forEach(boton => {
   boton.addEventListener('mouseenter', () => {
