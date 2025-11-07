@@ -86,3 +86,4 @@ navButtons.forEach(boton =>{
   }
   function mostrarModal(destino) {
     modal.style.display = 'flex';
+    console.log("Mostrando modal...");
