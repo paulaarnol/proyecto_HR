@@ -64,6 +64,7 @@ transform: translateY(-2px);}
 
 #navegacion a::after {
 content: "";
+position: absolute;
 
 
 
