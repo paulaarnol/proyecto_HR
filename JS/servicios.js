@@ -25,28 +25,7 @@ document.querySelector("footer").appendChild(mensaje);
 
 
 
-
-
-navButtons.forEach(boton => {
-  boton.addEventListener('click', (e) => {
-    e.preventDefault(); 
-    mostrarModal();
-  });
-
-boton.addEventListener('contextmenu', (e) => {
-    e.preventDefault(); 
-    mostrarModal();
-  });
-});
-
-const menu = document.getElementById('menu-toggle');
-const nav = document.getElementById('navegacion');
-menu.addEventListener('click', () => {
-nav.classList.toggle('active');
-});
-
 const botones = document.querySelectorAll('.boton-le');
-
 botones.forEach(boton => {
   boton.addEventListener('mouseenter', () => {
     boton.style.transform = 'scale(1.1)';
@@ -59,6 +38,7 @@ boton.addEventListener('mouseleave', () => {
     boton.style.boxShadow = 'none';
   });
 });
+
 function crearParticulas(contenedor, cantidad) {
   for (let i = 0; i < cantidad; i++) {
     const part = document.createElement("div");
@@ -73,12 +53,7 @@ function crearParticulas(contenedor, cantidad) {
 
 crearParticulas(document.body, 80);
 
-const menuToggle = document.getElementById('menu-Toggle');
-const navegacion = document.getElementById('navegacion');
 
-menu.addEventListener('click', () => {
-  nav.classList.toggle('active');
-});
 const modal = document.getElementById("modal-cargando");
 const navButtons = document.querySelectorAll('#navegacion a');
 
@@ -98,6 +73,7 @@ navButtons.forEach(boton =>{
     const destino = boton.getAttribute('href');
     mostrarModal(destino);
   });
+
   boton.addEventListener('contextmenu', (e) => {
     e.preventDefault();
     const destino = boton.getAttribute('href');
