@@ -300,3 +300,11 @@ footer {
   color: rgb(177, 0, 0);
    font-weight: 600; 
   }
+  
+.mapa iframe {
+  border-radius: 0px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  max-width: 1000px;
+  height: 450px;
+}
