@@ -329,6 +329,8 @@ align-items: center;
 background: linear-gradient(135deg, #000, #1e1e1e);
 color: white;
 padding: 30px 50px;
+border-radius: 12px;
+
 
 
 }
