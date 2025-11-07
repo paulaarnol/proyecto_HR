@@ -12,14 +12,18 @@
 }
 body {
   font-family: Arial, sans-serif;
-  font-size: 16px;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background: linear-gradient(135deg, rgb(6, 6, 6) , rgb(35, 35, 35) , rgba(22, 22, 22, 0.701));
+  background: linear-gradient(135deg, rgb(6, 6, 6), rgb(35, 35, 35), rgba(22, 22, 22, 0.701));
   background-size: 300% 300%;
   animation: moverFondo 15s ease infinite;
-   position: relative;
+  position: relative;
+}
+@keyframes moverFondo {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 /*monitores grandes*/
 @media(min-wdth:1200px){
