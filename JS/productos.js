@@ -41,7 +41,7 @@ function crearParticulas(contenedor, cantidad) {
     contenedor.appendChild(part);
     }
 }
-crearParticulas(document.body, 100);
+crearParticulas(document.querySelector('.fondo-animado'), 100);
 
 
 const correo = document.getElementById('correo');
