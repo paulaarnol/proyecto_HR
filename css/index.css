@@ -380,10 +380,6 @@ pointer-events: auto !important;
 
 @media (max-width: 768px) {
  .Menu-toggle{
-
-
-
-
-    
- }   
+display: block;
+}   
 }
