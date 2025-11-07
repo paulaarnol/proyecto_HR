@@ -267,18 +267,31 @@ outline-offset:6px;
   transform: rotate(0deg); } 
   to { transform: rotate(360deg); 
   } 
+  }
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .contacto.cj:hover::before { 
+  animation-duration: 1.8s; 
+  opacity: 1;
+   filter: brightness(1.4); }
+.contacto.cj:hover {
+   transform: translateY(-6px) scale(1.035);
+    box-shadow: 0 10px 40px rgba(122, 0, 0, 0.45);
+   }
+footer {
+  margin-top: 80px;
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  font-size: 0.9rem;
+  color: #ccc;
+}
+.mapa {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.mapa h2 { 
+  color: #ffffff;
+   font-size: 1.6rem; 
+   margin-bottom: 1.5rem; 
+  }
