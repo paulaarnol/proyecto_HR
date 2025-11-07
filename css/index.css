@@ -35,7 +35,7 @@ header{
     border-radius: 14px;
     z-index: 1100;
     box-shadow: 0 8px 30px rgba(0,0,0,0.6);
-    transition: transform var (--transition- fast),box-shadow var (--transition-fast), background var (----transition-fast);
+    transition: transform var(--transition- fast),box-shadow var(--transition-fast), background var(----transition-fast);
 
 
 }
