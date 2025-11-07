@@ -28,9 +28,11 @@ mostrarmodal(destino);
  }),
 });
 }
-  function mostrarmodal(desstino){
+  function mostrarmodal(destino){
 modal.style.display='flex';
-console.log("redirigiendo a:", desstino);
+console.log("mostrando modal...");
+setTimeout(() { 
+console.log("redirigiendo a:", destino);
 
   }
 
