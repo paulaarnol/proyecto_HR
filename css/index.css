@@ -27,6 +27,7 @@ body {
 header{
     display: flex;
     height: 80px;
+    align-items: center;
 
 }
 .top-color-bar{
