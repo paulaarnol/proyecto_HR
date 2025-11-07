@@ -26,6 +26,15 @@ window.addEventListener('load', () => {
     });
   }
 });
+// cande //
+window.addEventListener('scroll', () => {
+  const scrollY = window.scrollY;
+  document.querySelectorAll('.particula').forEach(p => {
+    const velocidad = 0.3;
+    p.style.transform = `translateY(${scrollY * velocidad}px)`;
+  });
+});
+
 /*Mi parte*/
 function crearParticulas(contenedor, cantidad) {
   for (let i = 0; i < cantidad; i++) {
