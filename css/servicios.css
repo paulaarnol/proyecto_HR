@@ -366,9 +366,9 @@ section ul { padding-left:18px; margin-top:8px; color:var(--muted); }
 section li { margin-bottom:10px; color:var(--muted); }
 
 .modal-cargando {
+display: none;
 
 
-  
 
 }
 
