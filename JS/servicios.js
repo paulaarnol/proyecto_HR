@@ -77,4 +77,10 @@ navButtons.forEach(boton =>{
     const destino = boton.getAttribute('href');
     mostrarModal(destino);
   });
-  
+  boton.addEventListener('contextmenu', (e) => {
+    e.preventDefault(); 
+    const destino = boton.getAttribute('href');
+    mostrarModal(destino);
+      });
+    });
+  }
