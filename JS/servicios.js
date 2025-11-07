@@ -22,7 +22,14 @@ if (hora >= 9 && hora < 20) {
 }
 document.querySelector("footer").appendChild(mensaje);
 
+const menu = document.getElementById("menu");
+const navegacion = document.getElementById("navegacion");
 
+if (menu && navegacion) {
+  menu.addEventListener("click", () => {
+    navegacion.classList.toggle("active");
+  });
+}
 
 
 const botones = document.querySelectorAll('.boton-le');

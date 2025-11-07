@@ -471,7 +471,7 @@ border-radius: 50%;
   display: block;
 }
 
-.menu{
+.menu-toggle{
   display: none;
   font-size: 30px;
   color: white;
