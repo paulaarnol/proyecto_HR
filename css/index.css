@@ -21,9 +21,12 @@ body {
     background: linear-gradient(135deg, rgb(6, 6, 6) , rgb(35, 35, 35) , rgba(22, 22, 22, 0.701));
     background-size: 300% 300%;
   animation: moverFondo 15s ease infinite;
-  position: relative;
+  position: relative; 
 }
 
+header{
+    
+}
 .top-color-bar{
     width: 100%;
     background-color: #000;
