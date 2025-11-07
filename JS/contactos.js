@@ -1,6 +1,6 @@
 // Animación de tarjetas
 document.addEventListener("DOMContentLoaded", () => {
-  const tarjetas = document.querySelectorAll(".contacto.cj"); // <-- CORREGIDO
+  const tarjetas = document.querySelectorAll(".contacto-cj"); // <-- CORREGIDO
 
   // Aparecen una por una
   tarjetas.forEach((tarjeta, index) => {
