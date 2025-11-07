@@ -55,6 +55,17 @@ window.addEventListener('load', () => {
     });
   }
 });
+//monte
+// Menú tres lineas 
+const menuToggle = document.getElementById('menu-toggle');
+const navegacion = document.getElementById('navegacion');
+
+if (menuToggle && navegacion) {
+  menuToggle.addEventListener('click', () => {
+    navegacion.classList.toggle('active');
+  });
+}
+
 // cande //
 window.addEventListener('scroll', () => {
   const scrollY = window.scrollY;
