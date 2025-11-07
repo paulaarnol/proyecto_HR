@@ -12,7 +12,7 @@ navegacion.classlist.toggle("active");
 })
 }
 const modal= document.getElementById("modal-cargando"); 
-
+const navbuttons.length
 
 
 
