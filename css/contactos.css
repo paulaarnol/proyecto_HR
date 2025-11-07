@@ -255,6 +255,9 @@ footer {
 
 /* ------------------ Mapas ------------------ */
 .mapa {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 2rem;
@@ -263,6 +266,7 @@ footer {
 .mapa h2 {
   color: #ffffff;
   font-size: 1.6rem;
+  margin: 0;
   margin-bottom: 1.5rem;
 }
 
@@ -272,11 +276,11 @@ footer {
 }
 
 .mapa iframe {
+  display: block;
   border-radius: 0px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
   width: 100%;
-  max-width: 1000px;
-  height: 450px;
+  height: 500px;
 }
 
 /* ------------------ Modal ------------------ */
