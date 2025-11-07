@@ -6,14 +6,25 @@ fab.addEventListener("click", () => {
      window.scrollTo({ top: 0, behavior: "smooth" });
      });
 
-     const hora = new Date().getHours();
-     const mensaje = document.createElement("p");
-     if (hora >= 9 && hora < 20) {
-          mensaje.textContent = "🟢 Estamos abiertos de 9:00 a 20:00.";
+
+
+
+
+
+
+
+const hora = new Date().getHours();
+const mensaje = document.createElement("p");
+if (hora >= 9 && hora < 20) {
+  mensaje.textContent = "🟢 Estamos abiertos de 9:00 a 20:00.";
 }else {
   mensaje.textContent = "🔴 Cerrado. Nuestro horario es de 9:00 a 20:00.";
 }
 document.querySelector("footer").appendChild(mensaje);
+
+
+
+
 
 
 navButtons.forEach(boton => {
@@ -60,7 +71,7 @@ function crearParticulas(contenedor, cantidad) {
   }
 }
 
-crearParticulas(document.body, 100);
+crearParticulas(document.body, 80);
 
 const menuToggle = document.getElementById('menu-Toggle');
 const navegacion = document.getElementById('navegacion');
@@ -70,6 +81,16 @@ menu.addEventListener('click', () => {
 });
 const modal = document.getElementById("modal-cargando");
 const navButtons = document.querySelectorAll('#navegacion a');
+
+  function mostrarModal(destino) {
+    modal.style.display = 'flex';
+    console.log("Mostrando modal...");
+      setTimeout(() => {
+    console.log("Redirigiendo a:", destino);
+    window.location.href = destino;
+  }, 1500);
+}
+
 if (modal && navButtons.length > 0) {
 navButtons.forEach(boton =>{
   boton.addEventListener('click', (e) => {
@@ -84,13 +105,5 @@ navButtons.forEach(boton =>{
       });
     });
   }
-  function mostrarModal(destino) {
-    modal.style.display = 'flex';
-    console.log("Mostrando modal...");
-      setTimeout(() => {
-    console.log("Redirigiendo a:", destino);
-    window.location.href = destino;
-  }, 1500);
-}
-
+  
 
