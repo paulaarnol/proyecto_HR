@@ -29,22 +29,25 @@ if (hora >= 9 && hora < 20) {
 }
 document.querySelector("footer").appendChild(mensaje);
 
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("Script productos.js cargado");
-const menu = document.getElementById("menu");
-const navegacion = document.getElementById("navegacion");
 
-if (menu && navegacion) {
-  menu.addEventListener("click", () => {
-    navegacion.classList.toggle("active");
-  });
-}
-  function toggleMenu() {
-    navegacion.classList.toggle("active");
-  }
 
-  menuToggle.addEventListener("click", toggleMenu);
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 const botones = document.querySelectorAll('.boton-le');
