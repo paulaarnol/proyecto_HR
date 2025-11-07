@@ -191,7 +191,8 @@ z-index: 1;
 
 .text-content h1,
 .text-content p {
-    opacity: 0;  
+    opacity: 0;
+    transform: translateY(20px);  
 }
  
 
