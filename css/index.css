@@ -57,6 +57,7 @@ transform: translateY(-2px);}
     text-decoration: none;
     color:var(--text);
     font-weight: 600;
+    font-size: 15px;
 }
 
 
