@@ -386,6 +386,7 @@ display: block;
 display: none;
 flex-direction: column;
 gap: 15px;
+position: absolute;
 
 
 
