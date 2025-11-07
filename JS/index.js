@@ -6,7 +6,7 @@ const navegacion - document.getElementById("navegacion");
 
 if (menutoggle && navegacion){
 menutoggle.addEventListener("click", () {
-navegacion.classlist.toggle
+navegacion.classlist.toggle("active");
 
 
 }
