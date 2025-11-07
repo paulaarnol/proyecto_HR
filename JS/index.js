@@ -22,9 +22,9 @@ mostrarmodal(destino)
 
 }),
 Boton.addEventListener('contextmenu', (e) {
+e.preventDefault
 
 
-    
 }
 
 
