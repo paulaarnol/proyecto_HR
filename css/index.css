@@ -73,7 +73,7 @@ background: linear-gradient(90deg, transparent, var(--accent), transparent);
 transform: scaleX(0);
 transform-origin: left;
 transition: transform var(--transition-med)cubic-bezier(.2,.9,.2,1);
-
+border-radius: 6px;
 }
 
 
