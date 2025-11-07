@@ -6,13 +6,13 @@ const navegacion = document.getElementById("navegacion");
 
 if (menutoggle && navegacion){
 menutoggle.addEventListener("click", () => {
-navegacion.classlist.toggle("active");
+navegacion.classList.toggle("active");
 
 
 });
 }
 const modal= document.getElementById("modal-cargando"); 
-const navbuttons - document.querySelectorAll('#navegacion a');
+const navbuttons = document.querySelectorAll('#navegacion a');
 if(modal && navbuttons.length > 0) {
 navbuttons.forEach(boton,  {
 boton.addEventListener('click', (e) => {
