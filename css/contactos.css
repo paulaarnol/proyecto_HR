@@ -277,24 +277,7 @@ outline-offset:6px;
 
 
 
-.footer-content h3 {
-  font-size: 1.2em;
-  margin-bottom: 5px;
-}
-.footer-content p a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 10px;
-  transition: color 0.3s ease-in-out, opacity 0.3s;
-}
-.footer-content p a:hover {
-  color: #ff0000;
- opacity: 0.8;
-}
-.copyright {
-  font-size: 0.8em;
-  color: #ff0000;
-}
+
 
 
 
