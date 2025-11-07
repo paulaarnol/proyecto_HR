@@ -29,9 +29,9 @@ mostrarmodal(destino);
 });
 }
   function mostrarmodal(desstino){
+modal.style.display='flex';
 
 
-    
   }
 
 
