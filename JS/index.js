@@ -20,12 +20,12 @@ boton.addEventListener('click', (e) => {
     const destino = boton.getAttribute ('href');
 mostrarmodal(destino)
 
-}),
+});
 Boton.addEventListener('contextmenu', (e) => {
 e.preventDefault();
 const destino=boton.getAttribute('href');
 mostrarmodal(destino);
- }),
+ });
 });
 }
   function mostrarmodal(destino){
