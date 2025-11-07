@@ -5,11 +5,17 @@ document.body.appendChild(fab);
 fab.addEventListener("click", () => {
    window.scrollTo({ top: 0, behavior: "smooth" });
 });
-
-
-
-
-
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 200) {
+    fab.style.opacity = "1";
+    fab.style.pointerEvents = "auto";
+    fab.style.transform = "scale(1)";
+  } else {
+    fab.style.opacity = "0";
+    fab.style.pointerEvents = "none";
+    fab.style.transform = "scale(0.8)";
+  }
+});
 
 
 
