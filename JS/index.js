@@ -65,4 +65,8 @@ document.addEventListener("DOMContentLoaded", function () {
   console.error("No se encontraron los elementos del menú");
   return;
   }
+  function toggleMenu() {
+  navegacion.classList.toggle("active");
+  }
+  menuToggle.addEventListener("click", toggleMenu);
 });
