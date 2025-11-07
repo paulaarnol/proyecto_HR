@@ -25,7 +25,8 @@ body {
 }
 
 header{
-    
+    display: flex;
+
 }
 .top-color-bar{
     width: 100%;
