@@ -21,7 +21,11 @@ boton.addEventListener('click', (e) => {
 mostrarmodal(destino)
 
 }),
-BOTON.addEventListener
+Boton.addEventListener('contextmenu', (e) {
+
+
+    
+}
 
 
 
