@@ -2,7 +2,9 @@
   --text: #eaeaea;
   --accent: #7a0000;
   --transition-fast: 180ms;
+  --transition-med: 340ms;
 }
+
 
 * {
   box-sizing: border-box;
@@ -45,55 +47,184 @@ body {
 }
 
 /* ------------------ HEADER ------------------ */
+
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 40px;
-  background: rgba(0,0,0,0.8);
-  backdrop-filter: blur(6px);
-  border-bottom: 2px solid var(--accent);
-  position: sticky;
-  top: 0;
-  z-index: 1100;
+    display:flex;
+    height: 80px;
+    align-items:center;
+    justify-content:space-between;
+    gap:30px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    backdrop-filter: blur(6px) saturate(1.05);
+    padding: 40px 20px;
+    position: sticky;
+    top: 0px;
+    border-radius: 14px;
+    z-index: 1100;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast);
+}
+header:hover { 
+  transform: translateY(-2px);}
+#navegacion ul { list-style:none; display:flex; gap:28px; align-items:center; }
+#navegacion a {
+  position:relative;
+  text-decoration:none;
+  color:var(--text);
+  font-weight:600;
+  font-size:15px;
+  padding:6px 4px;
+  transition: color var(--transition-fast), transform var(--transition-fast);
+  outline-offset:6px;
+}
+#navegacion a:focus { box-shadow: 0 0 0 4px rgba(255,76,97,0.08); border-radius:6px; }
+#navegacion a::after{
+    content:"";
+    position:absolute;
+    height:3px;
+    left:0;
+    right:0;
+    bottom:-6px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--transition-med) cubic-bezier(.2,.9,.2,1);
+    border-radius: 6px;
+}
+#navegacion a:hover::after,
+#navegacion a.activo::after { transform: scaleX(1); }
+header.scrolled {
+    padding:8px 22px;
+    box-shadow: 0 12px 36px rgba(0,0,0,0.7);
+    transform: translateY(-4px);
 }
 
+.modal-cargando {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.7);
+  backdrop-filter: blur(4px);
+  z-index: 2000;
+  justify-content: center;
+  align-items: center;
+}
+.modal-contenido {
+  background: linear-gradient(135deg, #111, #1e1e1e);
+  color: white;
+  padding: 30px 50px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+  animation: aparecerModal 0.4s ease;
+}
+.loader {
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  border-top: 5px solid #ff0000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 15px;
+  animation: girar 1s linear infinite;
+}
+@keyframes girar {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes aparecerModal {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
 .logo img {
   display: block;
 }
-
 .menu-toggle {
-  display: none; /* oculto por defecto */
-  font-size: 30px;
+  display: none;
+  font-size: 32px;
   color: white;
   cursor: pointer;
+  user-select: none;
+  position: absolute;
+  top: 22px;
+  right: 25px;
+  z-index: 9999 !important;
+  pointer-events: auto !important;
 }
 
-#navegacion ul {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-}
-
-#navegacion a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-#navegacion a:hover {
-  color: #b30000;
-}
-
-/* ------------------ Vista móvil ------------------ */
 @media (max-width: 768px) {
-  .menu-toggle { display: block; }
+  .menu-toggle {
+    display: block;
+  }
+   #navegacion ul {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.95);
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 2000;
+  }
+  #navegacion.active ul {
+    display: flex; 
+  }
+}
+
+/* ======== MENU MÓVIL ======== */
+.menu-toggle {
+  display: none;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  position: absolute;
+  top: 22px;
+  right: 25px;
+  z-index: 9999 !important;
+  pointer-events: auto !important;
+
+}
+
+/* Versión móvil */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
 
   #navegacion ul {
     display: none;
     flex-direction: column;
-    background: rgba(0,0,0,0.9);
+    gap: 15px;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.95);
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 2000;
+  }
+
+  #navegacion.active ul {
+    display: flex;
+  }
+}
+
+/* --- Vista móvil --- */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* aparece el botón ☰ */
+  }
+
+  #navegacion ul {
+    display: none; /* ocultamos el menú normal */
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.9);
     padding: 10px;
     position: absolute;
     top: 80px;
@@ -102,11 +233,14 @@ header {
   }
 
   #navegacion.active ul {
-    display: flex;
+    display: flex; /* se muestra cuando tocan ☰ */
   }
 
-  #navegacion a { padding: 10px; }
+  #navegacion a {
+    padding: 10px;
+  }
 }
+
 
 /* ------------------ contacto ------------------ */
 .contacto {
@@ -244,13 +378,39 @@ header {
 }
 
 /* ------------------ Footer ------------------ */
-footer {
-  margin-top: 80px;
-  text-align: center;
-  padding: 20px;
-  background: rgba(0,0,0,0.6);
-  font-size: 0.9rem;
-  color: #ccc;
+.main-footer {
+    width: 100%;
+    background-color: #000; 
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid rgb(235, 15, 15);
+    position: static;
+    bottom: 0;
+    z-index: 10;
+}
+
+.footer-content h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.footer-content p a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out, opacity 0.3s;
+}
+
+.footer-content p a:hover {
+    color: #ff0000;
+    opacity: 0.8;
+}
+
+
+.copyright {
+    font-size: 0.8em;
+    color: #ff0000;
 }
 
 /* ------------------ Mapas ------------------ */
