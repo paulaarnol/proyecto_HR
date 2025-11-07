@@ -17,11 +17,7 @@ body{
   overflow-x: hidden;
   position: relative;
 }
-@keyframes moverFondo {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
+
 .fondo-animado {
   position: fixed;
   top: 0;
@@ -44,6 +40,11 @@ body{
   pointer-events: none;
   opacity: 0.8;
   z-index: -1;
+}
+@keyframes moverFondo {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 @keyframes flotar{
   0% {
@@ -147,7 +148,7 @@ section, main > .turbos {
 
 .galeria {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas repeat(auto-fit, minmax(240px, 1fr));*/
+  grid-template-columns: repeat(3, 1fr); 
   gap: 16px;
   padding: 10px;
 }
@@ -219,8 +220,8 @@ article.taller p {
 }
 
 .tres > img:hover {
-  transform: scale(1.08); /* agranda un poco */
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* más sombra para resaltar */
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15); 
 }
 
 .tres p {
@@ -232,8 +233,8 @@ article.taller p {
 
 .animaciones-container {
     display: flex;
-    flex-direction: column; /* H2 arriba, animaciones abajo */
-    gap: 12px;              /* Espacio entre título y animaciones */
+    flex-direction: column; 
+    gap: 12px;              
     padding: 10px;
 }
 
@@ -242,14 +243,14 @@ article.taller p {
     font-size: 1.8rem;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;       /* Alinea el título a la izquierda */
+    text-align: left;       
 }
 
 .animaciones-fila {
-    display: flex;          /* Fila horizontal */
-    gap: 20px;              /* Espacio entre cada animación */
-    justify-content: flex-start; /* Alinea todo a la izquierda */
-    flex-wrap: nowrap;      /* No se rompen en varias filas */
+    display: flex;        
+    gap: 20px;           
+    justify-content: flex-start; 
+    flex-wrap: nowrap;   
 }
 
 .animacion-turbo1 {
@@ -257,7 +258,7 @@ article.taller p {
     height: 300px;
     background-size: cover;
     background-position: center;
-    background-image: url('galeria/3d/1TurbocompresorGarrett/turboa.png'); /* posición inicial */
+    background-image: url('galeria/3d/1TurbocompresorGarrett/turboa.png'); 
 }
 
 .animacion-turbo1:hover {
@@ -468,8 +469,8 @@ main {
   align-items: center;
 }
 .comentarios h3 {
-  text-align: center; /* Centra el texto */
-  font-size: 1.3rem;  /* Un poco más grande si querés */
+  text-align: center; 
+  font-size: 1.3rem; 
   margin-bottom: 10px;
 }
 
@@ -482,8 +483,8 @@ main {
   font-size: 14px;
 }
 .comentarios textarea {
-  height: 120px; /* Aumenta la altura de la caja de comentarios */
-  resize: vertical; /* Permite que el usuario la agrande si quiere */
+  height: 120px; 
+  resize: vertical; 
 }
 
 .comentarios button {
@@ -504,7 +505,7 @@ main {
   transform: scale(1.05);
 }
 .modal-cargando {
-  display: none; /* Oculto por defecto */
+  display: none; 
   position: fixed;
   top: 0;
   left: 0;
