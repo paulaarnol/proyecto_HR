@@ -9,7 +9,7 @@ menutoggle.addEventListener("click", () {
 navegacion.classlist.toggle("active");
 
 
-})
+});
 }
 const modal= document.getElementById("modal-cargando"); 
 const navbuttons - document.querySelectorAll('#navegacion a');
@@ -20,10 +20,7 @@ boton.addEventListener('click', (e) => {
     const destino = boton.getAttribute ('href');
 mostrarmodal(destino)
 
-
-
-
-}
+}),
 
 
 
