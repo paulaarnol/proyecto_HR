@@ -1,2 +1,15 @@
 modal js 
-document.
+document.addEventListener("DOMContentLoaded",function() {
+
+
+
+
+
+
+
+
+
+
+
+    
+}
