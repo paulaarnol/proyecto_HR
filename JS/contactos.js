@@ -13,6 +13,19 @@ botones.forEach(boton => {
   });
 });
 
+//cande
+window.addEventListener('load', () => {
+  const modal = document.getElementById('mensaje-bienvenida');
+  const cerrar = document.getElementById('cerrar-modal');
+
+  if (modal && cerrar) {
+    modal.classList.add('activo'); // Mostrar modal al cargar
+
+    cerrar.addEventListener('click', () => {
+      modal.classList.remove('activo');
+    });
+  }
+});
 /*Mi parte*/
 function crearParticulas(contenedor, cantidad) {
   for (let i = 0; i < cantidad; i++) {
