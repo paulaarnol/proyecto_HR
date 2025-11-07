@@ -5,7 +5,7 @@ const menutoggle= document.getElementById("menu-toggle");
 const navegacion = document.getElementById("navegacion");
 
 if (menutoggle && navegacion){
-menutoggle.addEventListener("click", () {
+menutoggle.addEventListener("click", () => {
 navegacion.classlist.toggle("active");
 
 
