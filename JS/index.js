@@ -49,3 +49,5 @@ function mostrarModal(destino) {
   }, 1500);
 }
 });
+const menuToggle = document.getElementById('menu-toggle');
+const navegacion = document.getElementById('navegacion');
