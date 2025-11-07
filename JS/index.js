@@ -1,6 +1,6 @@
 modal js 
 document.addEventListener("DOMContentLoaded",function() {
-console.log
+console.log ("script productos,js cargado");
 
 
 
